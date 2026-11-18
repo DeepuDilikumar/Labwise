@@ -1,0 +1,57 @@
+{
+  "id": "glucose_random",
+  "name": "Random blood sugar",
+  "panel": "blood_sugar",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %",
+        "mg%"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 18.016,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "random blood sugar",
+    "rbs",
+    "random glucose",
+    "glucose random",
+    "glucose (random)",
+    "glucose",
+    "blood glucose",
+    "plasma glucose"
+  ],
+  "description": "This measures blood sugar at any time of day, whether or not you have eaten.",
+  "reasonsHigh": [
+    "Eating shortly before the test",
+    "Stress or illness",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Not eating for a long time",
+    "Some diabetes medicines"
+  ],
+  "questions": [
+    "Should I have a fasting sugar or HbA1c test as well?"
+  ],
+  "critical": {
+    "below": 54.0,
+    "above": 400.0
+  },
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

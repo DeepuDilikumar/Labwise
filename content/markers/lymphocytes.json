@@ -1,0 +1,39 @@
+{
+  "id": "lymphocytes",
+  "name": "Lymphocytes",
+  "panel": "cbc",
+  "canonicalUnit": "%",
+  "siUnit": "%",
+  "units": [
+    {
+      "unit": "%",
+      "aliases": [
+        "percent"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "lymphocytes",
+    "lymphocyte",
+    "lymphs",
+    "lymphocytes %",
+    "lymph%"
+  ],
+  "description": "Lymphocytes are white blood cells that help the body remember and fight infections, especially viruses.",
+  "reasonsHigh": [
+    "A recent viral infection"
+  ],
+  "reasonsLow": [
+    "Physical stress",
+    "Some medicines, such as steroids"
+  ],
+  "questions": [
+    "Could a recent viral illness explain this?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

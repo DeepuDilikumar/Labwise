@@ -1,0 +1,53 @@
+{
+  "id": "triglycerides",
+  "name": "Triglycerides",
+  "panel": "lipids",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 88.57,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "triglycerides",
+    "tg",
+    "triglyceride",
+    "serum triglycerides",
+    "trigs"
+  ],
+  "description": "Triglycerides are a type of fat in the blood that comes from food and is stored for energy.",
+  "reasonsHigh": [
+    "Eating shortly before the test",
+    "Alcohol",
+    "Diet high in sugar or refined carbohydrates",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "Was I meant to fast for this test?",
+    "How do my triglycerides fit with my other results?"
+  ],
+  "critical": {
+    "above": 1000.0
+  },
+  "decimals": 0,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

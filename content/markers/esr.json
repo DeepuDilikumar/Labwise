@@ -1,0 +1,44 @@
+{
+  "id": "esr",
+  "name": "ESR",
+  "panel": "inflammation",
+  "canonicalUnit": "mm/hr",
+  "siUnit": "mm/hr",
+  "units": [
+    {
+      "unit": "mm/hr",
+      "aliases": [
+        "mm/h",
+        "mm/1st hr",
+        "mm in 1st hr",
+        "mm/hour",
+        "mm/1 hr"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "esr",
+    "erythrocyte sedimentation rate",
+    "sed rate",
+    "esr (westergren)"
+  ],
+  "description": "ESR is a general sign of inflammation in the body. It doesn't point to any one cause on its own.",
+  "reasonsHigh": [
+    "A recent infection or inflammation",
+    "Older age, which naturally raises ESR",
+    "Pregnancy",
+    "Low haemoglobin"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "What might be causing inflammation, if anything?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

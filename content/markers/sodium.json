@@ -1,0 +1,45 @@
+{
+  "id": "sodium",
+  "name": "Sodium",
+  "panel": "electrolytes",
+  "canonicalUnit": "mmol/L",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l",
+        "meq/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "sodium",
+    "na",
+    "na+",
+    "serum sodium",
+    "s. sodium"
+  ],
+  "description": "Sodium is a salt that helps control fluid balance, nerves and muscles.",
+  "reasonsHigh": [
+    "Not drinking enough fluids",
+    "Losing fluids through sweating or diarrhoea"
+  ],
+  "reasonsLow": [
+    "Drinking a lot of water",
+    "Some medicines, such as water tablets",
+    "Vomiting or diarrhoea"
+  ],
+  "questions": [
+    "What might be affecting my sodium?"
+  ],
+  "critical": {
+    "below": 120.0,
+    "above": 160.0
+  },
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

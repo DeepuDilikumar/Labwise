@@ -1,0 +1,48 @@
+{
+  "id": "hs_crp",
+  "name": "hs-CRP",
+  "panel": "inflammation",
+  "canonicalUnit": "mg/L",
+  "siUnit": "mg/L",
+  "units": [
+    {
+      "unit": "mg/L",
+      "aliases": [
+        "mg/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 10,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "hs-crp",
+    "hscrp",
+    "high sensitivity crp",
+    "high-sensitivity c-reactive protein",
+    "hs crp"
+  ],
+  "description": "hs-CRP measures low levels of inflammation more precisely than a standard CRP test.",
+  "reasonsHigh": [
+    "A recent infection or injury",
+    "Being overweight or smoking",
+    "Long-term inflammation"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "How do you use hs-CRP in my case?"
+  ],
+  "critical": null,
+  "decimals": 2,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

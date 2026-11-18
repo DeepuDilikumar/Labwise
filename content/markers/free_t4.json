@@ -1,0 +1,48 @@
+{
+  "id": "free_t4",
+  "name": "Free T4",
+  "panel": "thyroid",
+  "canonicalUnit": "ng/dL",
+  "siUnit": "pmol/L",
+  "units": [
+    {
+      "unit": "ng/dL",
+      "aliases": [
+        "ng/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "pmol/L",
+      "aliases": [
+        "pmol/l"
+      ],
+      "a": 0.07770007770007771,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "free t4",
+    "ft4",
+    "free thyroxine",
+    "t4 free",
+    "thyroxine free",
+    "free t4 (ft4)"
+  ],
+  "description": "Free T4 is the active form of the main hormone made by your thyroid.",
+  "reasonsHigh": [
+    "The thyroid making more hormone",
+    "Thyroid medicine taken shortly before the test"
+  ],
+  "reasonsLow": [
+    "The thyroid making less hormone"
+  ],
+  "questions": [
+    "How do my free T4 and TSH look together?"
+  ],
+  "critical": null,
+  "decimals": 2,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

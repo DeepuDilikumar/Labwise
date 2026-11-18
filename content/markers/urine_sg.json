@@ -1,0 +1,37 @@
+{
+  "id": "urine_sg",
+  "name": "Urine specific gravity",
+  "panel": "urine",
+  "canonicalUnit": "",
+  "siUnit": "",
+  "units": [
+    {
+      "unit": "",
+      "aliases": [
+        "sg"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "specific gravity",
+    "urine specific gravity",
+    "sp. gravity",
+    "sp gravity"
+  ],
+  "description": "Specific gravity shows how concentrated your urine is.",
+  "reasonsHigh": [
+    "Not drinking enough fluids"
+  ],
+  "reasonsLow": [
+    "Drinking a lot of fluids"
+  ],
+  "questions": [
+    "Should I be drinking more water?"
+  ],
+  "critical": null,
+  "decimals": 3,
+  "siDecimals": 3,
+  "reviewedByDoctor": false
+}

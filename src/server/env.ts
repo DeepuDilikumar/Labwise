@@ -24,7 +24,7 @@ const schema = z.object({
 
   AI_PROVIDER: z.enum(["anthropic", "local"]).optional(),
   ANTHROPIC_API_KEY: z.string().optional(),
-  ANTHROPIC_MODEL: z.string().default("claude-sonnet-5-5"),
+  ANTHROPIC_MODEL: z.string().default("claude-opus-5-5"),
 
   RAZORPAY_KEY_ID: z.string().optional(),
   RAZORPAY_KEY_SECRET: z.string().optional(),

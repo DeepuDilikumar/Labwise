@@ -1,0 +1,48 @@
+{
+  "id": "bun",
+  "name": "Blood urea nitrogen (BUN)",
+  "panel": "kidney",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 2.801,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "bun",
+    "blood urea nitrogen",
+    "urea nitrogen",
+    "bun (blood urea nitrogen)"
+  ],
+  "description": "BUN measures the nitrogen from urea in your blood. The kidneys remove urea, so it helps show how they are working.",
+  "reasonsHigh": [
+    "Not drinking enough fluids",
+    "A high-protein diet",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Low-protein diet",
+    "Liver changes"
+  ],
+  "questions": [
+    "How does my BUN fit with my creatinine?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

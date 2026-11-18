@@ -1,0 +1,56 @@
+{
+  "id": "t3_total",
+  "name": "Total T3",
+  "panel": "thyroid",
+  "canonicalUnit": "ng/dL",
+  "siUnit": "nmol/L",
+  "units": [
+    {
+      "unit": "ng/dL",
+      "aliases": [
+        "ng/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "ng/mL",
+      "aliases": [
+        "ng/ml"
+      ],
+      "a": 100,
+      "b": 0.0
+    },
+    {
+      "unit": "nmol/L",
+      "aliases": [
+        "nmol/l"
+      ],
+      "a": 65.1,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "t3",
+    "total t3",
+    "triiodothyronine",
+    "t3 total",
+    "total triiodothyronine"
+  ],
+  "description": "Total T3 measures all the T3 thyroid hormone in your blood, both bound to proteins and free.",
+  "reasonsHigh": [
+    "The thyroid making more hormone",
+    "Pregnancy or some medicines that raise binding proteins"
+  ],
+  "reasonsLow": [
+    "Recent illness",
+    "The thyroid making less hormone"
+  ],
+  "questions": [
+    "Should we look at free hormone levels instead?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

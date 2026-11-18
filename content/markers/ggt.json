@@ -1,0 +1,41 @@
+{
+  "id": "ggt",
+  "name": "GGT",
+  "panel": "liver",
+  "canonicalUnit": "U/L",
+  "siUnit": "U/L",
+  "units": [
+    {
+      "unit": "U/L",
+      "aliases": [
+        "iu/l",
+        "u/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "ggt",
+    "gamma gt",
+    "gamma-glutamyl transferase",
+    "ggtp",
+    "gamma glutamyl transpeptidase"
+  ],
+  "description": "GGT is a liver enzyme. It is often looked at together with ALP.",
+  "reasonsHigh": [
+    "Alcohol",
+    "Some medicines",
+    "Fatty liver"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "What could be raising my GGT?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

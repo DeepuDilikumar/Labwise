@@ -1,0 +1,45 @@
+{
+  "id": "potassium",
+  "name": "Potassium",
+  "panel": "electrolytes",
+  "canonicalUnit": "mmol/L",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l",
+        "meq/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "potassium",
+    "k",
+    "k+",
+    "serum potassium",
+    "s. potassium"
+  ],
+  "description": "Potassium is a mineral that helps your nerves, muscles and heart work properly.",
+  "reasonsHigh": [
+    "Some medicines",
+    "Kidney changes",
+    "Sample handling, such as a delay before testing"
+  ],
+  "reasonsLow": [
+    "Vomiting or diarrhoea",
+    "Some medicines, such as water tablets"
+  ],
+  "questions": [
+    "Should my potassium be rechecked?"
+  ],
+  "critical": {
+    "below": 2.8,
+    "above": 6.2
+  },
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

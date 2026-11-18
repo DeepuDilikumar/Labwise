@@ -1,0 +1,39 @@
+{
+  "id": "rdw",
+  "name": "RDW",
+  "panel": "cbc",
+  "canonicalUnit": "%",
+  "siUnit": "%",
+  "units": [
+    {
+      "unit": "%",
+      "aliases": [
+        "cv",
+        "rdw-cv"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "rdw",
+    "rdw-cv",
+    "red cell distribution width",
+    "red cell distribution width (rdw)"
+  ],
+  "description": "RDW shows how much your red blood cells vary in size.",
+  "reasonsHigh": [
+    "Mixed causes of red cell changes, such as low iron",
+    "Recent blood loss or treatment for anaemia"
+  ],
+  "reasonsLow": [
+    "Usually not a concern on its own"
+  ],
+  "questions": [
+    "What could cause my red cells to vary in size?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

@@ -13,7 +13,9 @@
     "e2e": "playwright test --trace off",
     "screens": "tsx scripts/screens.ts",
     "eval": "tsx scripts/eval-golden.ts",
-    "check": "pnpm typecheck && pnpm lint && pnpm test"
+    "check": "pnpm typecheck && pnpm lint && pnpm test",
+    "fixtures": "tsx scripts/fixtures/generate.ts",
+    "content": "python3 scripts/content/markers.py"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.10.0",
@@ -36,6 +38,7 @@
     "motion": "14.14.0",
     "next": "16.4.6",
     "next-intl": "4.15.1",
+    "pdf-lib": "^1.17.1",
     "postgres": "^4.1.1",
     "react": "19.3.0",
     "react-dom": "19.3.0",

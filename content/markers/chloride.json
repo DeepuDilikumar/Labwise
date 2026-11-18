@@ -1,0 +1,40 @@
+{
+  "id": "chloride",
+  "name": "Chloride",
+  "panel": "electrolytes",
+  "canonicalUnit": "mmol/L",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l",
+        "meq/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "chloride",
+    "cl",
+    "cl-",
+    "serum chloride"
+  ],
+  "description": "Chloride is a salt that works with sodium to balance fluids in the body.",
+  "reasonsHigh": [
+    "Not drinking enough fluids",
+    "Diarrhoea"
+  ],
+  "reasonsLow": [
+    "Vomiting",
+    "Some medicines"
+  ],
+  "questions": [
+    "How do my salts look together?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

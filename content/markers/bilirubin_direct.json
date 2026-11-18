@@ -1,0 +1,49 @@
+{
+  "id": "bilirubin_direct",
+  "name": "Direct bilirubin",
+  "panel": "liver",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "µmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "µmol/L",
+      "aliases": [
+        "umol/l",
+        "µmol/l"
+      ],
+      "a": 0.05847953216374269,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "direct bilirubin",
+    "bilirubin direct",
+    "conjugated bilirubin",
+    "bilirubin, direct",
+    "d. bilirubin",
+    "bilirubin (direct)"
+  ],
+  "description": "Direct bilirubin is the form of bilirubin that has been processed by the liver.",
+  "reasonsHigh": [
+    "Liver or bile duct changes",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "What does my direct bilirubin show?"
+  ],
+  "critical": null,
+  "decimals": 2,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

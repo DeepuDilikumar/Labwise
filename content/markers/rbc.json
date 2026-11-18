@@ -1,0 +1,61 @@
+{
+  "id": "rbc",
+  "name": "Red blood cell count",
+  "panel": "cbc",
+  "canonicalUnit": "10^6/µL",
+  "siUnit": "10^12/L",
+  "units": [
+    {
+      "unit": "10^6/µL",
+      "aliases": [
+        "million/cumm",
+        "million/µl",
+        "mill/cumm",
+        "x10^6/ul",
+        "10^6/ul",
+        "m/ul",
+        "million/mm3",
+        "x10^6/µl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "10^12/L",
+      "aliases": [
+        "x10^12/l",
+        "10^12/l",
+        "t/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "rbc",
+    "rbc count",
+    "red blood cell count",
+    "red cell count",
+    "erythrocytes",
+    "total rbc count",
+    "erythrocyte count"
+  ],
+  "description": "This counts how many red blood cells are in a small amount of blood. Red cells carry oxygen around the body.",
+  "reasonsHigh": [
+    "Dehydration",
+    "Smoking",
+    "Living at high altitude"
+  ],
+  "reasonsLow": [
+    "Low iron or vitamins",
+    "Recent blood loss",
+    "Pregnancy"
+  ],
+  "questions": [
+    "How does my red cell count fit with my haemoglobin?"
+  ],
+  "critical": null,
+  "decimals": 2,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

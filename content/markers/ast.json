@@ -1,0 +1,46 @@
+{
+  "id": "ast",
+  "name": "AST (SGOT)",
+  "panel": "liver",
+  "canonicalUnit": "U/L",
+  "siUnit": "U/L",
+  "units": [
+    {
+      "unit": "U/L",
+      "aliases": [
+        "iu/l",
+        "u/l",
+        "units/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "ast",
+    "sgot",
+    "aspartate aminotransferase",
+    "ast (sgot)",
+    "sgot (ast)",
+    "aspartate transaminase"
+  ],
+  "description": "AST is an enzyme found in the liver, muscles and other organs.",
+  "reasonsHigh": [
+    "Some medicines",
+    "Alcohol",
+    "Liver strain",
+    "Recent muscle injury or intense exercise"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "How do my AST and ALT look together?"
+  ],
+  "critical": {
+    "above": 1000.0
+  },
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

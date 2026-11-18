@@ -1,0 +1,49 @@
+{
+  "id": "t4_total",
+  "name": "Total T4",
+  "panel": "thyroid",
+  "canonicalUnit": "µg/dL",
+  "siUnit": "nmol/L",
+  "units": [
+    {
+      "unit": "µg/dL",
+      "aliases": [
+        "ug/dl",
+        "µg/dl",
+        "mcg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "nmol/L",
+      "aliases": [
+        "nmol/l"
+      ],
+      "a": 0.07770007770007771,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "t4",
+    "total t4",
+    "thyroxine",
+    "t4 total",
+    "total thyroxine"
+  ],
+  "description": "Total T4 measures all the T4 thyroid hormone in your blood, both bound to proteins and free.",
+  "reasonsHigh": [
+    "The thyroid making more hormone",
+    "Pregnancy or some medicines that raise binding proteins"
+  ],
+  "reasonsLow": [
+    "The thyroid making less hormone"
+  ],
+  "questions": [
+    "Should we look at free T4 instead?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

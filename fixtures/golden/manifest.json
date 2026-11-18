@@ -1,0 +1,2666 @@
+{
+ "447a36b0d45c2d52e77f847d8a799f48ad031405ae648b179fc4898745f370cb": {
+  "id": "lab-in-01",
+  "file": "lab-in-01.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-11-10",
+    "patientAge": 34,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Haemoglobin",
+      "value": "12.8",
+      "unit": "g/dL",
+      "referenceRangeText": "12.0 - 15.5",
+      "referenceRangeLow": 12,
+      "referenceRangeHigh": 15.5,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total RBC Count",
+      "value": "4.19",
+      "unit": "million/cumm",
+      "referenceRangeText": "4.00 - 5.20",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "PCV",
+      "value": "38.1",
+      "unit": "%",
+      "referenceRangeText": "36.0 - 46.0",
+      "referenceRangeLow": 36,
+      "referenceRangeHigh": 46,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "MCV",
+      "value": "86",
+      "unit": "fL",
+      "referenceRangeText": "80 - 100",
+      "referenceRangeLow": 80,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Leucocyte Count",
+      "value": "3.6",
+      "unit": "10^3/µL",
+      "referenceRangeText": "4.0 - 11.0",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 11,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Platelet Count",
+      "value": "3.53",
+      "unit": "lakhs/cumm",
+      "referenceRangeText": "1.50 - 4.10",
+      "referenceRangeLow": 1.5,
+      "referenceRangeHigh": 4.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Fasting Blood Sugar",
+      "value": "108",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 100",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Post Prandial Blood Sugar",
+      "value": "137",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 140",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 140,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HbA1c (Glycated Haemoglobin)",
+      "value": "6.1",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Cholesterol",
+      "value": "196",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 200",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol (Calculated)",
+      "value": "132",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 100",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol (Direct)",
+      "value": "40",
+      "unit": "mg/dL",
+      "referenceRangeText": "40 - 60",
+      "referenceRangeLow": 40,
+      "referenceRangeHigh": 60,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "153",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 150",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Creatinine",
+      "value": "0.70",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.60 - 1.10",
+      "referenceRangeLow": 0.6,
+      "referenceRangeHigh": 1.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Blood Urea",
+      "value": "23",
+      "unit": "mg/dL",
+      "referenceRangeText": "15 - 40",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "eGFR (CKD-EPI)",
+      "value": "124",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Uric Acid",
+      "value": "4.4",
+      "unit": "mg/dL",
+      "referenceRangeText": "2.6 - 6.0",
+      "referenceRangeLow": 2.6,
+      "referenceRangeHigh": 6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "SGPT (ALT)",
+      "value": "30",
+      "unit": "U/L",
+      "referenceRangeText": "7 - 40",
+      "referenceRangeLow": 7,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "SGOT (AST)",
+      "value": "20",
+      "unit": "U/L",
+      "referenceRangeText": "8 - 40",
+      "referenceRangeLow": 8,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Alkaline Phosphatase",
+      "value": "93",
+      "unit": "U/L",
+      "referenceRangeText": "44 - 147",
+      "referenceRangeLow": 44,
+      "referenceRangeHigh": 147,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Bilirubin",
+      "value": "0.9",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.2 - 1.2",
+      "referenceRangeLow": 0.2,
+      "referenceRangeHigh": 1.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Albumin",
+      "value": "4.1",
+      "unit": "g/dL",
+      "referenceRangeText": "3.5 - 5.0",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "TSH (Ultrasensitive)",
+      "value": "2.41",
+      "unit": "µIU/mL",
+      "referenceRangeText": "0.40 - 4.00",
+      "referenceRangeLow": 0.4,
+      "referenceRangeHigh": 4,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Free T4",
+      "value": "0.81",
+      "unit": "ng/dL",
+      "referenceRangeText": "0.80 - 1.80",
+      "referenceRangeLow": 0.8,
+      "referenceRangeHigh": 1.8,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin D (25-OH)",
+      "value": "18.4",
+      "unit": "ng/mL",
+      "referenceRangeText": "30.0 - 100.0",
+      "referenceRangeLow": 30,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin B12",
+      "value": "762",
+      "unit": "pg/mL",
+      "referenceRangeText": "200 - 900",
+      "referenceRangeLow": 200,
+      "referenceRangeHigh": 900,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Ferritin",
+      "value": "130",
+      "unit": "ng/mL",
+      "referenceRangeText": "15 - 150",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "f9510840df813711ef3b7aa807b3e60afcf0a35ac3099270231d89e8c7aa6cc9": {
+  "id": "lab-in-02",
+  "file": "lab-in-02.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-10-02",
+    "patientAge": 35,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "Haemoglobin",
+      "value": "10.6",
+      "unit": "g/dL",
+      "referenceRangeText": "12.0 - 15.5",
+      "referenceRangeLow": 12,
+      "referenceRangeHigh": 15.5,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total RBC Count",
+      "value": "4.20",
+      "unit": "million/cumm",
+      "referenceRangeText": "4.00 - 5.20",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "PCV",
+      "value": "39.3",
+      "unit": "%",
+      "referenceRangeText": "36.0 - 46.0",
+      "referenceRangeLow": 36,
+      "referenceRangeHigh": 46,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "MCV",
+      "value": "78",
+      "unit": "fL",
+      "referenceRangeText": "80 - 100",
+      "referenceRangeLow": 80,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Leucocyte Count",
+      "value": "4.0",
+      "unit": "10^3/µL",
+      "referenceRangeText": "4.0 - 11.0",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 11,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Platelet Count",
+      "value": "4.10",
+      "unit": "lakhs/cumm",
+      "referenceRangeText": "1.50 - 4.10",
+      "referenceRangeLow": 1.5,
+      "referenceRangeHigh": 4.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "SGPT (ALT)",
+      "value": "18",
+      "unit": "U/L",
+      "referenceRangeText": "7 - 40",
+      "referenceRangeLow": 7,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "SGOT (AST)",
+      "value": "28",
+      "unit": "U/L",
+      "referenceRangeText": "8 - 40",
+      "referenceRangeLow": 8,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Alkaline Phosphatase",
+      "value": "98",
+      "unit": "U/L",
+      "referenceRangeText": "44 - 147",
+      "referenceRangeLow": 44,
+      "referenceRangeHigh": 147,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Bilirubin",
+      "value": "0.9",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.2 - 1.2",
+      "referenceRangeLow": 0.2,
+      "referenceRangeHigh": 1.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Albumin",
+      "value": "4.5",
+      "unit": "g/dL",
+      "referenceRangeText": "3.5 - 5.0",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "3220fe39b735576ddaee50facea0997f0de1b3bf10e702bea238d72487b0a569": {
+  "id": "lab-in-03",
+  "file": "lab-in-03.jpg",
+  "contentType": "image/jpeg",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-09-14",
+    "patientAge": 36,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Fasting Blood Sugar",
+      "value": "75",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 100",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Post Prandial Blood Sugar",
+      "value": "101",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 140",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 140,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "HbA1c (Glycated Haemoglobin)",
+      "value": "5.3",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Total Cholesterol",
+      "value": "116",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 200",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "LDL Cholesterol (Calculated)",
+      "value": "112",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 100",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "HDL Cholesterol (Direct)",
+      "value": "51",
+      "unit": "mg/dL",
+      "referenceRangeText": "40 - 60",
+      "referenceRangeLow": 40,
+      "referenceRangeHigh": 60,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "112",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 150",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.86
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "a38e421c11b9ad73c577fd6a3ddc4d2a7170c87c4b97ea40b23f5b3365495797": {
+  "id": "lab-in-04",
+  "file": "lab-in-04.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-08-21",
+    "patientAge": 37,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "TSH (Ultrasensitive)",
+      "value": "6.80",
+      "unit": "µIU/mL",
+      "referenceRangeText": "0.40 - 4.00",
+      "referenceRangeLow": 0.4,
+      "referenceRangeHigh": 4,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Free T4",
+      "value": "0.96",
+      "unit": "ng/dL",
+      "referenceRangeText": "0.80 - 1.80",
+      "referenceRangeLow": 0.8,
+      "referenceRangeHigh": 1.8,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin D (25-OH)",
+      "value": "69.4",
+      "unit": "ng/mL",
+      "referenceRangeText": "30.0 - 100.0",
+      "referenceRangeLow": 30,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin B12",
+      "value": "464",
+      "unit": "pg/mL",
+      "referenceRangeText": "200 - 900",
+      "referenceRangeLow": 200,
+      "referenceRangeHigh": 900,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Ferritin",
+      "value": "27",
+      "unit": "ng/mL",
+      "referenceRangeText": "15 - 150",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "66c201c97054159b74499658626bdeebcb92c05095e7693f0bc3a5d3d253996e": {
+  "id": "lab-in-05",
+  "file": "lab-in-05.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-07-30",
+    "patientAge": 38,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Serum Creatinine",
+      "value": "0.68",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.60 - 1.10",
+      "referenceRangeLow": 0.6,
+      "referenceRangeHigh": 1.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Blood Urea",
+      "value": "32",
+      "unit": "mg/dL",
+      "referenceRangeText": "15 - 40",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "eGFR (CKD-EPI)",
+      "value": "86",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Uric Acid",
+      "value": "3.1",
+      "unit": "mg/dL",
+      "referenceRangeText": "2.6 - 6.0",
+      "referenceRangeLow": 2.6,
+      "referenceRangeHigh": 6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Sodium",
+      "value": "138",
+      "unit": "mmol/L",
+      "referenceRangeText": "135 - 145",
+      "referenceRangeLow": 135,
+      "referenceRangeHigh": 145,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Potassium",
+      "value": "5.0",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.5 - 5.1",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Calcium",
+      "value": "10.1",
+      "unit": "mg/dL",
+      "referenceRangeText": "8.6 - 10.3",
+      "referenceRangeLow": 8.6,
+      "referenceRangeHigh": 10.3,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "CRP (Quantitative)",
+      "value": "3.2",
+      "unit": "mg/L",
+      "referenceRangeText": null,
+      "referenceRangeLow": null,
+      "referenceRangeHigh": null,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "cd000b10fa0940db26a92bcef1a2c411453f47f1b1d0e0db3067770f7d20e9a7": {
+  "id": "lab-in-06",
+  "file": "lab-in-06.jpg",
+  "contentType": "image/jpeg",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-06-11",
+    "patientAge": 39,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "Haemoglobin",
+      "value": "12.6",
+      "unit": "g/dL",
+      "referenceRangeText": "12.0 - 15.5",
+      "referenceRangeLow": 12,
+      "referenceRangeHigh": 15.5,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Total RBC Count",
+      "value": "4.96",
+      "unit": "million/cumm",
+      "referenceRangeText": "4.00 - 5.20",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.2,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "PCV",
+      "value": "44.6",
+      "unit": "%",
+      "referenceRangeText": "36.0 - 46.0",
+      "referenceRangeLow": 36,
+      "referenceRangeHigh": 46,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "MCV",
+      "value": "84",
+      "unit": "fL",
+      "referenceRangeText": "80 - 100",
+      "referenceRangeLow": 80,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Total Leucocyte Count",
+      "value": "3.4",
+      "unit": "10^3/µL",
+      "referenceRangeText": "4.0 - 11.0",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 11,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Platelet Count",
+      "value": "3.09",
+      "unit": "lakhs/cumm",
+      "referenceRangeText": "1.50 - 4.10",
+      "referenceRangeLow": 1.5,
+      "referenceRangeHigh": 4.1,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Fasting Blood Sugar",
+      "value": "75",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 100",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Post Prandial Blood Sugar",
+      "value": "87",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 140",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 140,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "HbA1c (Glycated Haemoglobin)",
+      "value": "5.1",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Serum Creatinine",
+      "value": "0.85",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.60 - 1.10",
+      "referenceRangeLow": 0.6,
+      "referenceRangeHigh": 1.1,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Blood Urea",
+      "value": "13",
+      "unit": "mg/dL",
+      "referenceRangeText": "15 - 40",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "eGFR (CKD-EPI)",
+      "value": "173",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Serum Uric Acid",
+      "value": "3.2",
+      "unit": "mg/dL",
+      "referenceRangeText": "2.6 - 6.0",
+      "referenceRangeLow": 2.6,
+      "referenceRangeHigh": 6,
+      "labFlag": null,
+      "confidence": 0.86
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "bb6421ea056996bf4cb41ed42524a6417de365c63d2d52de1d818c592dc36542": {
+  "id": "lab-in-07",
+  "file": "lab-in-07.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-05-05",
+    "patientAge": 40,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Sodium",
+      "value": "137",
+      "unit": "mmol/L",
+      "referenceRangeText": "135 - 145",
+      "referenceRangeLow": 135,
+      "referenceRangeHigh": 145,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Potassium",
+      "value": "6.6",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.5 - 5.1",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5.1,
+      "labFlag": "Critical",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Calcium",
+      "value": "10.2",
+      "unit": "mg/dL",
+      "referenceRangeText": "8.6 - 10.3",
+      "referenceRangeLow": 8.6,
+      "referenceRangeHigh": 10.3,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "CRP (Quantitative)",
+      "value": "3.6",
+      "unit": "mg/L",
+      "referenceRangeText": "< 5.0",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 5,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Creatinine",
+      "value": "0.99",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.60 - 1.10",
+      "referenceRangeLow": 0.6,
+      "referenceRangeHigh": 1.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Blood Urea",
+      "value": "22",
+      "unit": "mg/dL",
+      "referenceRangeText": "15 - 40",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "eGFR (CKD-EPI)",
+      "value": "170",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Uric Acid",
+      "value": "3.0",
+      "unit": "mg/dL",
+      "referenceRangeText": "2.6 - 6.0",
+      "referenceRangeLow": 2.6,
+      "referenceRangeHigh": 6,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "96f63204833b936581a560cc8c712ca4b5cd47e971880a1d802b2565b1dfb963": {
+  "id": "lab-in-08",
+  "file": "lab-in-08.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-04-18",
+    "patientAge": 41,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "Total Cholesterol",
+      "value": "219",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 200",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol (Calculated)",
+      "value": "75",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 100",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol (Direct)",
+      "value": "47",
+      "unit": "mg/dL",
+      "referenceRangeText": "40 - 60",
+      "referenceRangeLow": 40,
+      "referenceRangeHigh": 60,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "92",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 150",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "SGPT (ALT)",
+      "value": "8",
+      "unit": "U/L",
+      "referenceRangeText": "7 - 40",
+      "referenceRangeLow": 7,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "SGOT (AST)",
+      "value": "31",
+      "unit": "U/L",
+      "referenceRangeText": "8 - 40",
+      "referenceRangeLow": 8,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Alkaline Phosphatase",
+      "value": "111",
+      "unit": "U/L",
+      "referenceRangeText": "44 - 147",
+      "referenceRangeLow": 44,
+      "referenceRangeHigh": 147,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Bilirubin",
+      "value": "1.3",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.2 - 1.2",
+      "referenceRangeLow": 0.2,
+      "referenceRangeHigh": 1.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Albumin",
+      "value": "3.4",
+      "unit": "g/dL",
+      "referenceRangeText": "3.5 - 5.0",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "TSH (Ultrasensitive)",
+      "value": "0.78",
+      "unit": "µIU/mL",
+      "referenceRangeText": "0.40 - 4.00",
+      "referenceRangeLow": 0.4,
+      "referenceRangeHigh": 4,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Free T4",
+      "value": "0.67",
+      "unit": "ng/dL",
+      "referenceRangeText": "0.80 - 1.80",
+      "referenceRangeLow": 0.8,
+      "referenceRangeHigh": 1.8,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "1b73853a230188f097ce83622f0c2661fed3f38d6576b9276c881eafe51e623c": {
+  "id": "lab-us-01",
+  "file": "lab-us-01.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-11-03",
+    "patientAge": 42,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Hemoglobin",
+      "value": "12.6",
+      "unit": "g/dL",
+      "referenceRangeText": "12.0 - 15.5",
+      "referenceRangeLow": 12,
+      "referenceRangeHigh": 15.5,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "RBC",
+      "value": "4.11",
+      "unit": "million/cumm",
+      "referenceRangeText": "4.00 - 5.20",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Hematocrit",
+      "value": "37.1",
+      "unit": "%",
+      "referenceRangeText": "36.0 - 46.0",
+      "referenceRangeLow": 36,
+      "referenceRangeHigh": 46,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "MCV",
+      "value": "89",
+      "unit": "fL",
+      "referenceRangeText": "80 - 100",
+      "referenceRangeLow": 80,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "WBC",
+      "value": "6.4",
+      "unit": "10^3/µL",
+      "referenceRangeText": "4.0 - 11.0",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 11,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Platelets",
+      "value": "220",
+      "unit": "10^3/µL",
+      "referenceRangeText": "150 - 410",
+      "referenceRangeLow": 150,
+      "referenceRangeHigh": 410,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Glucose, Fasting",
+      "value": "112",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 100",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 100,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Glucose, 2 Hr Post Prandial",
+      "value": "95",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 140",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 140,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Hemoglobin A1c",
+      "value": "5.9",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Cholesterol, Total",
+      "value": "133",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 200",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol",
+      "value": "74",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 100",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol",
+      "value": "40",
+      "unit": "mg/dL",
+      "referenceRangeText": "40 - 60",
+      "referenceRangeLow": 40,
+      "referenceRangeHigh": 60,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "161",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 150",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 150,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Creatinine",
+      "value": "1.05",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.60 - 1.10",
+      "referenceRangeLow": 0.6,
+      "referenceRangeHigh": 1.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "BUN",
+      "value": "21",
+      "unit": "mg/dL",
+      "referenceRangeText": "15 - 40",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "eGFR",
+      "value": "206",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Uric Acid",
+      "value": "4.9",
+      "unit": "mg/dL",
+      "referenceRangeText": "2.6 - 6.0",
+      "referenceRangeLow": 2.6,
+      "referenceRangeHigh": 6,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "b84a031fd1410ecd20181fcf9d08b49c700b9074c810a49e77c8cbbed943e014": {
+  "id": "lab-us-02",
+  "file": "lab-us-02.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-10-12",
+    "patientAge": 43,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "ALT",
+      "value": "13",
+      "unit": "U/L",
+      "referenceRangeText": "7 - 40",
+      "referenceRangeLow": 7,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "AST",
+      "value": "15",
+      "unit": "U/L",
+      "referenceRangeText": "8 - 40",
+      "referenceRangeLow": 8,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Alkaline Phosphatase",
+      "value": "147",
+      "unit": "U/L",
+      "referenceRangeText": "44 - 147",
+      "referenceRangeLow": 44,
+      "referenceRangeHigh": 147,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Bilirubin, Total",
+      "value": "0.7",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.2 - 1.2",
+      "referenceRangeLow": 0.2,
+      "referenceRangeHigh": 1.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Albumin",
+      "value": "3.4",
+      "unit": "g/dL",
+      "referenceRangeText": "3.5 - 5.0",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5,
+      "labFlag": "L",
+      "confidence": 0.97
+     },
+     {
+      "marker": "TSH",
+      "value": "0.19",
+      "unit": "µIU/mL",
+      "referenceRangeText": "0.40 - 4.00",
+      "referenceRangeLow": 0.4,
+      "referenceRangeHigh": 4,
+      "labFlag": "L",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Free T4",
+      "value": "1.72",
+      "unit": "ng/dL",
+      "referenceRangeText": "0.80 - 1.80",
+      "referenceRangeLow": 0.8,
+      "referenceRangeHigh": 1.8,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin D, 25-Hydroxy",
+      "value": "91.9",
+      "unit": "ng/mL",
+      "referenceRangeText": "30.0 - 100.0",
+      "referenceRangeLow": 30,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin B12",
+      "value": "732",
+      "unit": "pg/mL",
+      "referenceRangeText": "200 - 900",
+      "referenceRangeLow": 200,
+      "referenceRangeHigh": 900,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Ferritin",
+      "value": "143",
+      "unit": "ng/mL",
+      "referenceRangeText": "15 - 150",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "1d2476f394be25f83d1fee07eb0fff97e8ca33e40da8644357e55db4604834a4": {
+  "id": "lab-us-03",
+  "file": "lab-us-03.jpg",
+  "contentType": "image/jpeg",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-09-01",
+    "patientAge": 44,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Hemoglobin",
+      "value": "12.6",
+      "unit": "g/dL",
+      "referenceRangeText": "12.0 - 15.5",
+      "referenceRangeLow": 12,
+      "referenceRangeHigh": 15.5,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "RBC",
+      "value": "4.39",
+      "unit": "million/cumm",
+      "referenceRangeText": "4.00 - 5.20",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.2,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Hematocrit",
+      "value": "41.9",
+      "unit": "%",
+      "referenceRangeText": "36.0 - 46.0",
+      "referenceRangeLow": 36,
+      "referenceRangeHigh": 46,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "MCV",
+      "value": "91",
+      "unit": "fL",
+      "referenceRangeText": "80 - 100",
+      "referenceRangeLow": 80,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "WBC",
+      "value": "9.4",
+      "unit": "10^3/µL",
+      "referenceRangeText": "4.0 - 11.0",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 11,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Platelets",
+      "value": "388",
+      "unit": "10^3/µL",
+      "referenceRangeText": "150 - 410",
+      "referenceRangeLow": 150,
+      "referenceRangeHigh": 410,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Sodium",
+      "value": "137",
+      "unit": "mmol/L",
+      "referenceRangeText": "135 - 145",
+      "referenceRangeLow": 135,
+      "referenceRangeHigh": 145,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Potassium",
+      "value": "4.7",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.5 - 5.1",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5.1,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Calcium",
+      "value": "8.8",
+      "unit": "mg/dL",
+      "referenceRangeText": "8.6 - 10.3",
+      "referenceRangeLow": 8.6,
+      "referenceRangeHigh": 10.3,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "C-Reactive Protein",
+      "value": "3.4",
+      "unit": "mg/L",
+      "referenceRangeText": "< 5.0",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 5,
+      "labFlag": null,
+      "confidence": 0.86
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "d5b81cdeecb0cce2b755bf674883c7c7cdb7a81bd49d06a357ae7dc09e7c1c14": {
+  "id": "lab-us-04",
+  "file": "lab-us-04.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-08-08",
+    "patientAge": 45,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "Glucose, Fasting",
+      "value": "75",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 100",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Glucose, 2 Hr Post Prandial",
+      "value": "101",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 140",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 140,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Hemoglobin A1c",
+      "value": "4.3",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Cholesterol, Total",
+      "value": "156",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 200",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol",
+      "value": "96",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 100",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol",
+      "value": "53",
+      "unit": "mg/dL",
+      "referenceRangeText": "40 - 60",
+      "referenceRangeLow": 40,
+      "referenceRangeHigh": 60,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "169",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 150",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 150,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Creatinine",
+      "value": "0.97",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.60 - 1.10",
+      "referenceRangeLow": 0.6,
+      "referenceRangeHigh": 1.1,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "BUN",
+      "value": "17",
+      "unit": "mg/dL",
+      "referenceRangeText": "15 - 40",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "eGFR",
+      "value": "82",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": "L",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Uric Acid",
+      "value": "5.3",
+      "unit": "mg/dL",
+      "referenceRangeText": "2.6 - 6.0",
+      "referenceRangeLow": 2.6,
+      "referenceRangeHigh": 6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "ALT",
+      "value": "23",
+      "unit": "U/L",
+      "referenceRangeText": "7 - 40",
+      "referenceRangeLow": 7,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "AST",
+      "value": "32",
+      "unit": "U/L",
+      "referenceRangeText": "8 - 40",
+      "referenceRangeLow": 8,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Alkaline Phosphatase",
+      "value": "80",
+      "unit": "U/L",
+      "referenceRangeText": "44 - 147",
+      "referenceRangeLow": 44,
+      "referenceRangeHigh": 147,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Bilirubin, Total",
+      "value": "0.9",
+      "unit": "mg/dL",
+      "referenceRangeText": "0.2 - 1.2",
+      "referenceRangeLow": 0.2,
+      "referenceRangeHigh": 1.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Albumin",
+      "value": "4.3",
+      "unit": "g/dL",
+      "referenceRangeText": "3.5 - 5.0",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "60d60ce78426de48dfbb8868fbd15ff5c6255dd275650d80783f3eb76a61c6d8": {
+  "id": "lab-si-01",
+  "file": "lab-si-01.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-11-01",
+    "patientAge": 46,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Glucose, Fasting",
+      "value": "6.4",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.9 - 5.6",
+      "referenceRangeLow": 3.9,
+      "referenceRangeHigh": 5.6,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Glucose, 2 Hr Post Prandial",
+      "value": "4.6",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.9 - 7.8",
+      "referenceRangeLow": 3.9,
+      "referenceRangeHigh": 7.8,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Hemoglobin A1c",
+      "value": "3.9",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": "L",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Cholesterol, Total",
+      "value": "5.37",
+      "unit": "mmol/L",
+      "referenceRangeText": "< 5.17",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 5.17,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol",
+      "value": "2.66",
+      "unit": "mmol/L",
+      "referenceRangeText": "< 2.59",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 2.59,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol",
+      "value": "1.43",
+      "unit": "mmol/L",
+      "referenceRangeText": "1.03 - 1.55",
+      "referenceRangeLow": 1.03,
+      "referenceRangeHigh": 1.55,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "1.21",
+      "unit": "mmol/L",
+      "referenceRangeText": "< 1.69",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 1.69,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Creatinine",
+      "value": "67",
+      "unit": "µmol/L",
+      "referenceRangeText": "53 - 97",
+      "referenceRangeLow": 53,
+      "referenceRangeHigh": 97,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "BUN",
+      "value": "6.5",
+      "unit": "mmol/L",
+      "referenceRangeText": "2.5 - 6.7",
+      "referenceRangeLow": 2.5,
+      "referenceRangeHigh": 6.7,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "eGFR",
+      "value": "212",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Uric Acid",
+      "value": "360",
+      "unit": "µmol/L",
+      "referenceRangeText": "155 - 357",
+      "referenceRangeLow": 155,
+      "referenceRangeHigh": 357,
+      "labFlag": "H",
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "8986c32dfe1cab669eb5ddd550b72ba1d2bdb243fb3dfa39e6ea884a5893d790": {
+  "id": "lab-si-02",
+  "file": "lab-si-02.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-10-20",
+    "patientAge": 47,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "Hemoglobin",
+      "value": "126",
+      "unit": "g/L",
+      "referenceRangeText": "120 - 155",
+      "referenceRangeLow": 120,
+      "referenceRangeHigh": 155,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "RBC",
+      "value": "4.10",
+      "unit": "x10^12/L",
+      "referenceRangeText": "4.00 - 5.20",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.2,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Hematocrit",
+      "value": "44.0",
+      "unit": "%",
+      "referenceRangeText": "36.0 - 46.0",
+      "referenceRangeLow": 36,
+      "referenceRangeHigh": 46,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "MCV",
+      "value": "99",
+      "unit": "fL",
+      "referenceRangeText": "80 - 100",
+      "referenceRangeLow": 80,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "WBC",
+      "value": "9.4",
+      "unit": "x10^9/L",
+      "referenceRangeText": "4.0 - 11.0",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 11,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Platelets",
+      "value": "296",
+      "unit": "x10^9/L",
+      "referenceRangeText": "150 - 410",
+      "referenceRangeLow": 150,
+      "referenceRangeHigh": 410,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "ALT",
+      "value": "8",
+      "unit": "U/L",
+      "referenceRangeText": "7 - 40",
+      "referenceRangeLow": 7,
+      "referenceRangeHigh": 40,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "AST",
+      "value": "43",
+      "unit": "U/L",
+      "referenceRangeText": "8 - 40",
+      "referenceRangeLow": 8,
+      "referenceRangeHigh": 40,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "Alkaline Phosphatase",
+      "value": "134",
+      "unit": "U/L",
+      "referenceRangeText": "44 - 147",
+      "referenceRangeLow": 44,
+      "referenceRangeHigh": 147,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Bilirubin, Total",
+      "value": "10",
+      "unit": "µmol/L",
+      "referenceRangeText": "3 - 21",
+      "referenceRangeLow": 3,
+      "referenceRangeHigh": 21,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Albumin",
+      "value": "39",
+      "unit": "g/L",
+      "referenceRangeText": "35 - 50",
+      "referenceRangeLow": 35,
+      "referenceRangeHigh": 50,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "TSH",
+      "value": "2.91",
+      "unit": "mIU/L",
+      "referenceRangeText": "0.40 - 4.00",
+      "referenceRangeLow": 0.4,
+      "referenceRangeHigh": 4,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Free T4",
+      "value": "23.0",
+      "unit": "pmol/L",
+      "referenceRangeText": "10.3 - 23.2",
+      "referenceRangeLow": 10.3,
+      "referenceRangeHigh": 23.2,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "7dad8cc4f6fec9c39035cf7cab9d18a1e5541d2c22dd7ab054d4ce4158036fbe": {
+  "id": "lab-si-03",
+  "file": "lab-si-03.jpg",
+  "contentType": "image/jpeg",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-09-25",
+    "patientAge": 48,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Sodium",
+      "value": "137",
+      "unit": "mmol/L",
+      "referenceRangeText": "135 - 145",
+      "referenceRangeLow": 135,
+      "referenceRangeHigh": 145,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Potassium",
+      "value": "3.8",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.5 - 5.1",
+      "referenceRangeLow": 3.5,
+      "referenceRangeHigh": 5.1,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Calcium",
+      "value": "2.31",
+      "unit": "mmol/L",
+      "referenceRangeText": "2.15 - 2.57",
+      "referenceRangeLow": 2.15,
+      "referenceRangeHigh": 2.57,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "C-Reactive Protein",
+      "value": "3.9",
+      "unit": "mg/L",
+      "referenceRangeText": "< 5.0",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 5,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Vitamin D, 25-Hydroxy",
+      "value": "116",
+      "unit": "nmol/L",
+      "referenceRangeText": "75 - 250",
+      "referenceRangeLow": 75,
+      "referenceRangeHigh": 250,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Vitamin B12",
+      "value": "451",
+      "unit": "pmol/L",
+      "referenceRangeText": "148 - 664",
+      "referenceRangeLow": 148,
+      "referenceRangeHigh": 664,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Ferritin",
+      "value": "148",
+      "unit": "µg/L",
+      "referenceRangeText": "15 - 150",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Creatinine",
+      "value": "63",
+      "unit": "µmol/L",
+      "referenceRangeText": "53 - 97",
+      "referenceRangeLow": 53,
+      "referenceRangeHigh": 97,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "BUN",
+      "value": "4.5",
+      "unit": "mmol/L",
+      "referenceRangeText": "2.5 - 6.7",
+      "referenceRangeLow": 2.5,
+      "referenceRangeHigh": 6.7,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "eGFR",
+      "value": "184",
+      "unit": "mL/min/1.73m²",
+      "referenceRangeText": "90 - 200",
+      "referenceRangeLow": 90,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.86
+     },
+     {
+      "marker": "Uric Acid",
+      "value": "213",
+      "unit": "µmol/L",
+      "referenceRangeText": "155 - 357",
+      "referenceRangeLow": 155,
+      "referenceRangeHigh": 357,
+      "labFlag": null,
+      "confidence": 0.86
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "a95fb16416bade097df718871ce5c9e646aeabcbe03626eb3b51daae7538c048": {
+  "id": "lab-si-04",
+  "file": "lab-si-04.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Lakeside Clinical Laboratories (Sample)",
+    "reportDate": "2026-08-15",
+    "patientAge": 49,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "Glucose, Fasting",
+      "value": "4.2",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.9 - 5.6",
+      "referenceRangeLow": 3.9,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Glucose, 2 Hr Post Prandial",
+      "value": "5.1",
+      "unit": "mmol/L",
+      "referenceRangeText": "3.9 - 7.8",
+      "referenceRangeLow": 3.9,
+      "referenceRangeHigh": 7.8,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Hemoglobin A1c",
+      "value": "4.0",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Cholesterol, Total",
+      "value": "2.98",
+      "unit": "mmol/L",
+      "referenceRangeText": "< 5.17",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 5.17,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol",
+      "value": "2.97",
+      "unit": "mmol/L",
+      "referenceRangeText": "< 2.59",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 2.59,
+      "labFlag": "H",
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol",
+      "value": "1.49",
+      "unit": "mmol/L",
+      "referenceRangeText": "1.03 - 1.55",
+      "referenceRangeLow": 1.03,
+      "referenceRangeHigh": 1.55,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "1.48",
+      "unit": "mmol/L",
+      "referenceRangeText": "< 1.69",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 1.69,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "646f02cca3a36484c9a61d3edc32fd9736ed787f27d618172912d5717454d4d6": {
+  "id": "hist-in-01",
+  "file": "hist-in-01.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-05-12",
+    "patientAge": 50,
+    "patientSex": "female",
+    "markers": [
+     {
+      "marker": "Fasting Blood Sugar",
+      "value": "121",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 100",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Post Prandial Blood Sugar",
+      "value": "82",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 140",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 140,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HbA1c (Glycated Haemoglobin)",
+      "value": "6.4",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Cholesterol",
+      "value": "217",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 200",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol (Calculated)",
+      "value": "151",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 100",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol (Direct)",
+      "value": "42",
+      "unit": "mg/dL",
+      "referenceRangeText": "40 - 60",
+      "referenceRangeLow": 40,
+      "referenceRangeHigh": 60,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "108",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 150",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin D (25-OH)",
+      "value": "12.2",
+      "unit": "ng/mL",
+      "referenceRangeText": "30.0 - 100.0",
+      "referenceRangeLow": 30,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin B12",
+      "value": "110",
+      "unit": "pg/mL",
+      "referenceRangeText": "200 - 900",
+      "referenceRangeLow": 200,
+      "referenceRangeHigh": 900,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Ferritin",
+      "value": "30",
+      "unit": "ng/mL",
+      "referenceRangeText": "15 - 150",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "dbed9264b95150928e697df5272adb5952f9b078ba65fe2becd6c6d4f3ad46af": {
+  "id": "hist-in-02",
+  "file": "hist-in-02.pdf",
+  "contentType": "application/pdf",
+  "kind": "lab",
+  "truth": {
+   "kind": "lab",
+   "lab": {
+    "labName": "Sunrise Diagnostics (Sample Lab)",
+    "reportDate": "2026-08-09",
+    "patientAge": 51,
+    "patientSex": "male",
+    "markers": [
+     {
+      "marker": "Fasting Blood Sugar",
+      "value": "114",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 100",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Post Prandial Blood Sugar",
+      "value": "82",
+      "unit": "mg/dL",
+      "referenceRangeText": "70 - 140",
+      "referenceRangeLow": 70,
+      "referenceRangeHigh": 140,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HbA1c (Glycated Haemoglobin)",
+      "value": "6.3",
+      "unit": "%",
+      "referenceRangeText": "4.0 - 5.6",
+      "referenceRangeLow": 4,
+      "referenceRangeHigh": 5.6,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Total Cholesterol",
+      "value": "179",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 200",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 200,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "LDL Cholesterol (Calculated)",
+      "value": "141",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 100",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "HDL Cholesterol (Direct)",
+      "value": "43",
+      "unit": "mg/dL",
+      "referenceRangeText": "40 - 60",
+      "referenceRangeLow": 40,
+      "referenceRangeHigh": 60,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Triglycerides",
+      "value": "85",
+      "unit": "mg/dL",
+      "referenceRangeText": "< 150",
+      "referenceRangeLow": null,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin D (25-OH)",
+      "value": "15.1",
+      "unit": "ng/mL",
+      "referenceRangeText": "30.0 - 100.0",
+      "referenceRangeLow": 30,
+      "referenceRangeHigh": 100,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Vitamin B12",
+      "value": "502",
+      "unit": "pg/mL",
+      "referenceRangeText": "200 - 900",
+      "referenceRangeLow": 200,
+      "referenceRangeHigh": 900,
+      "labFlag": null,
+      "confidence": 0.97
+     },
+     {
+      "marker": "Serum Ferritin",
+      "value": "16",
+      "unit": "ng/mL",
+      "referenceRangeText": "15 - 150",
+      "referenceRangeLow": 15,
+      "referenceRangeHigh": 150,
+      "labFlag": null,
+      "confidence": 0.97
+     }
+    ]
+   },
+   "prescription": null
+  }
+ },
+ "ceed5b208838ba1997309fc60f22dcd95c862dd3cf439ad9a283e6ed389f4566": {
+  "id": "rx-in-01",
+  "file": "rx-in-01.pdf",
+  "contentType": "application/pdf",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-11-11",
+    "prescriberSpecialty": "General Physician",
+    "items": [
+     {
+      "medicine": "Tab. Glycomet 500 mg",
+      "strength": "500 mg",
+      "form": "tablet",
+      "frequency": "1-0-1",
+      "duration": "30 days",
+      "instructions": "After food",
+      "confidence": 0.96
+     },
+     {
+      "medicine": "Tab. Telma 40",
+      "strength": "40 mg",
+      "form": "tablet",
+      "frequency": "1-0-0",
+      "duration": "30 days",
+      "instructions": "Morning",
+      "confidence": 0.96
+     },
+     {
+      "medicine": "Cap. Uprise-D3 60K",
+      "strength": "60000 IU",
+      "form": "capsule",
+      "frequency": "Once a week",
+      "duration": "8 weeks",
+      "instructions": "With milk",
+      "confidence": 0.96
+     }
+    ]
+   }
+  }
+ },
+ "4a8167b7cb44e67ce8d877c07b51efcfaf59dc39327f10591d6fd2373ca74ef0": {
+  "id": "rx-in-02",
+  "file": "rx-in-02.pdf",
+  "contentType": "application/pdf",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-10-04",
+    "prescriberSpecialty": "Physician",
+    "items": [
+     {
+      "medicine": "Tab. Dolo 650",
+      "strength": "650 mg",
+      "form": "tablet",
+      "frequency": "1-1-1",
+      "duration": "3 days",
+      "instructions": "If fever",
+      "confidence": 0.74
+     },
+     {
+      "medicine": "Tab. Azithral 500",
+      "strength": "500 mg",
+      "form": "tablet",
+      "frequency": "1-0-0",
+      "duration": "3 days",
+      "instructions": "After food",
+      "confidence": 0.74
+     },
+     {
+      "medicine": "Tab. Cetzine 10 mg",
+      "strength": "10 mg",
+      "form": "tablet",
+      "frequency": "0-0-1",
+      "duration": "5 days",
+      "instructions": null,
+      "confidence": 0.74
+     }
+    ]
+   }
+  }
+ },
+ "aef8b95567e41f32f7037d919afa434516b784753a402cc7244fdc5bab774342": {
+  "id": "rx-in-03",
+  "file": "rx-in-03.jpg",
+  "contentType": "image/jpeg",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-09-17",
+    "prescriberSpecialty": "Endocrinologist",
+    "items": [
+     {
+      "medicine": "Tab. Thyronorm 50 mcg",
+      "strength": "50 mcg",
+      "form": "tablet",
+      "frequency": "1-0-0",
+      "duration": "3 months",
+      "instructions": "Empty stomach",
+      "confidence": 0.66
+     },
+     {
+      "medicine": "Tab. Shelcal 500",
+      "strength": "500 mg",
+      "form": "tablet",
+      "frequency": "0-1-0",
+      "duration": "3 months",
+      "instructions": "After lunch",
+      "confidence": 0.66
+     }
+    ]
+   }
+  }
+ },
+ "15f8b347fdb511465b3bd65796dbfbfd8126489d6c2d6515ae4453b0ce9895ae": {
+  "id": "rx-in-04",
+  "file": "rx-in-04.pdf",
+  "contentType": "application/pdf",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-08-02",
+    "prescriberSpecialty": "Gastroenterologist",
+    "items": [
+     {
+      "medicine": "Cap. Pan-D",
+      "strength": null,
+      "form": "capsule",
+      "frequency": "1-0-0",
+      "duration": "14 days",
+      "instructions": "Before breakfast",
+      "confidence": 0.96
+     },
+     {
+      "medicine": "Tab. Emeset 4 mg",
+      "strength": "4 mg",
+      "form": "tablet",
+      "frequency": "SOS",
+      "duration": "5 days",
+      "instructions": "If vomiting",
+      "confidence": 0.96
+     }
+    ]
+   }
+  }
+ },
+ "e8bdde74738f35e6d458d54bd72580dd0e7a3e886629e939ab13fc267b048cc3": {
+  "id": "rx-us-01",
+  "file": "rx-us-01.pdf",
+  "contentType": "application/pdf",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-11-02",
+    "prescriberSpecialty": "Primary Care",
+    "items": [
+     {
+      "medicine": "Lipitor 20 mg",
+      "strength": "20 mg",
+      "form": "tablet",
+      "frequency": "Once daily at bedtime",
+      "duration": "90 days",
+      "instructions": null,
+      "confidence": 0.96
+     },
+     {
+      "medicine": "Lisinopril 10 mg",
+      "strength": "10 mg",
+      "form": "tablet",
+      "frequency": "Once daily",
+      "duration": "90 days",
+      "instructions": null,
+      "confidence": 0.96
+     }
+    ]
+   }
+  }
+ },
+ "5a1b2785fce62bd22eee881bb02a0c35628ea79cf7cfaf876702da61d4147fdb": {
+  "id": "rx-us-02",
+  "file": "rx-us-02.pdf",
+  "contentType": "application/pdf",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-10-15",
+    "prescriberSpecialty": "Urgent Care",
+    "items": [
+     {
+      "medicine": "Amoxicillin-Clavulanate 875 mg",
+      "strength": "875 mg",
+      "form": "tablet",
+      "frequency": "BID",
+      "duration": "10 days",
+      "instructions": "With food",
+      "confidence": 0.74
+     },
+     {
+      "medicine": "Ibuprofen 400 mg",
+      "strength": "400 mg",
+      "form": "tablet",
+      "frequency": "Every 6 hours as needed",
+      "duration": "5 days",
+      "instructions": "With food",
+      "confidence": 0.74
+     }
+    ]
+   }
+  }
+ },
+ "a5b6aa9025964271368c21bcfb2a4e76dd87b4749cfe111f7f516d4428aa0b5f": {
+  "id": "rx-us-03",
+  "file": "rx-us-03.jpg",
+  "contentType": "image/jpeg",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-09-09",
+    "prescriberSpecialty": "Family Medicine",
+    "items": [
+     {
+      "medicine": "Synthroid 75 mcg",
+      "strength": "75 mcg",
+      "form": "tablet",
+      "frequency": "Every morning",
+      "duration": "30 days",
+      "instructions": "On an empty stomach",
+      "confidence": 0.66
+     },
+     {
+      "medicine": "Zyrtec 10 mg",
+      "strength": "10 mg",
+      "form": "tablet",
+      "frequency": "Once daily",
+      "duration": "30 days",
+      "instructions": null,
+      "confidence": 0.66
+     }
+    ]
+   }
+  }
+ },
+ "f8fc022866d01814eb6c4b60bda06d0b046c426327c9bbaf0bf16b87a918a3b9": {
+  "id": "rx-us-04",
+  "file": "rx-us-04.pdf",
+  "contentType": "application/pdf",
+  "kind": "prescription",
+  "truth": {
+   "kind": "prescription",
+   "lab": null,
+   "prescription": {
+    "prescribedDate": "2026-07-21",
+    "prescriberSpecialty": "Pulmonology",
+    "items": [
+     {
+      "medicine": "Ventolin HFA inhaler",
+      "strength": "90 mcg/puff",
+      "form": "inhaler",
+      "frequency": "2 puffs every 4-6 hours as needed",
+      "duration": null,
+      "instructions": "For wheezing",
+      "confidence": 0.96
+     },
+     {
+      "medicine": "Singulair 10 mg",
+      "strength": "10 mg",
+      "form": "tablet",
+      "frequency": "Once daily in the evening",
+      "duration": "30 days",
+      "instructions": null,
+      "confidence": 0.96
+     }
+    ]
+   }
+  }
+ }
+}

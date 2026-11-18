@@ -1,0 +1,56 @@
+{
+  "id": "creatinine",
+  "name": "Creatinine",
+  "panel": "kidney",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "µmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "µmol/L",
+      "aliases": [
+        "umol/l",
+        "µmol/l",
+        "micromol/l"
+      ],
+      "a": 0.011309658448314861,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "creatinine",
+    "serum creatinine",
+    "s. creatinine",
+    "creatinine, serum",
+    "creat"
+  ],
+  "description": "Creatinine is a waste product from muscles. Your kidneys filter it out, so it helps show how well they are working.",
+  "reasonsHigh": [
+    "Not drinking enough fluids",
+    "More muscle mass or heavy exercise",
+    "Eating a lot of meat before the test",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Less muscle mass",
+    "Pregnancy"
+  ],
+  "questions": [
+    "What does this creatinine result say about my kidneys?",
+    "Should my kidney tests be repeated?"
+  ],
+  "critical": {
+    "above": 5.0
+  },
+  "decimals": 2,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

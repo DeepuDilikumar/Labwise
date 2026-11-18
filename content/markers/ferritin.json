@@ -1,0 +1,48 @@
+{
+  "id": "ferritin",
+  "name": "Ferritin",
+  "panel": "iron",
+  "canonicalUnit": "ng/mL",
+  "siUnit": "µg/L",
+  "units": [
+    {
+      "unit": "ng/mL",
+      "aliases": [
+        "ng/ml"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "µg/L",
+      "aliases": [
+        "ug/l",
+        "µg/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "ferritin",
+    "serum ferritin",
+    "s. ferritin"
+  ],
+  "description": "Ferritin shows how much iron your body has stored.",
+  "reasonsHigh": [
+    "Inflammation or a recent infection",
+    "Alcohol",
+    "Liver changes"
+  ],
+  "reasonsLow": [
+    "Low iron stores",
+    "Blood loss, including heavy periods"
+  ],
+  "questions": [
+    "Do my iron stores need attention?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

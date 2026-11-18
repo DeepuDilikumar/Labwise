@@ -1,0 +1,42 @@
+{
+  "id": "neutrophils",
+  "name": "Neutrophils",
+  "panel": "cbc",
+  "canonicalUnit": "%",
+  "siUnit": "%",
+  "units": [
+    {
+      "unit": "%",
+      "aliases": [
+        "percent"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "neutrophils",
+    "neutrophil",
+    "polymorphs",
+    "neutrophils %",
+    "segmented neutrophils",
+    "neut%"
+  ],
+  "description": "Neutrophils are the most common type of white blood cell. They are often the first to respond to bacterial infections.",
+  "reasonsHigh": [
+    "A bacterial infection",
+    "Physical stress",
+    "Some medicines, such as steroids"
+  ],
+  "reasonsLow": [
+    "Some viral infections",
+    "Some medicines"
+  ],
+  "questions": [
+    "Is my neutrophil level linked to a recent infection?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

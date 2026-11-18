@@ -1,0 +1,48 @@
+{
+  "id": "magnesium",
+  "name": "Magnesium",
+  "panel": "electrolytes",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 2.431,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "magnesium",
+    "serum magnesium",
+    "mg",
+    "s. magnesium"
+  ],
+  "description": "Magnesium is a mineral that helps muscles, nerves and energy use.",
+  "reasonsHigh": [
+    "Some supplements or antacids",
+    "Kidney changes"
+  ],
+  "reasonsLow": [
+    "Some medicines, such as acid-reducing tablets",
+    "Alcohol",
+    "Diarrhoea"
+  ],
+  "questions": [
+    "Is my magnesium level linked to any of my medicines?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

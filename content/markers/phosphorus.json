@@ -1,0 +1,47 @@
+{
+  "id": "phosphorus",
+  "name": "Phosphorus",
+  "panel": "electrolytes",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 3.097,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "phosphorus",
+    "phosphate",
+    "inorganic phosphorus",
+    "serum phosphorus"
+  ],
+  "description": "Phosphorus is a mineral that works with calcium to build bones and teeth.",
+  "reasonsHigh": [
+    "Kidney changes",
+    "Normal bone growth in children"
+  ],
+  "reasonsLow": [
+    "Low vitamin D",
+    "Some antacids"
+  ],
+  "questions": [
+    "How does my phosphorus fit with my calcium?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

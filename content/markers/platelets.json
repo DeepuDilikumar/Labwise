@@ -1,0 +1,85 @@
+{
+  "id": "platelets",
+  "name": "Platelet count",
+  "panel": "cbc",
+  "canonicalUnit": "10^3/µL",
+  "siUnit": "10^9/L",
+  "units": [
+    {
+      "unit": "10^3/µL",
+      "aliases": [
+        "x10^3/ul",
+        "10^3/ul",
+        "thou/µl",
+        "k/µl",
+        "k/ul",
+        "x10^3/µl",
+        "10^3/µl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "10^9/L",
+      "aliases": [
+        "x10^9/l",
+        "10^9/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "lakh/cumm",
+      "aliases": [
+        "lakhs/cumm",
+        "lakh/µl",
+        "lakhs/µl",
+        "lakh/mm3",
+        "lakhs"
+      ],
+      "a": 100,
+      "b": 0.0
+    },
+    {
+      "unit": "/µL",
+      "aliases": [
+        "/cumm",
+        "cells/cumm",
+        "/ul",
+        "/µl",
+        "/mm3"
+      ],
+      "a": 0.001,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "platelets",
+    "platelet count",
+    "plt",
+    "thrombocytes",
+    "platelet"
+  ],
+  "description": "Platelets are tiny cell pieces that help your blood clot and stop bleeding.",
+  "reasonsHigh": [
+    "Recent infection or inflammation",
+    "Low iron",
+    "Recovery after blood loss"
+  ],
+  "reasonsLow": [
+    "Some viral infections, including dengue in some regions",
+    "Some medicines",
+    "Clumping of platelets in the sample tube"
+  ],
+  "questions": [
+    "Should my platelet count be checked again?",
+    "Is there anything I should watch out for, like unusual bruising?"
+  ],
+  "critical": {
+    "below": 20.0,
+    "above": 1000.0
+  },
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

@@ -1,0 +1,50 @@
+{
+  "id": "vitamin_b12",
+  "name": "Vitamin B12",
+  "panel": "vitamins",
+  "canonicalUnit": "pg/mL",
+  "siUnit": "pmol/L",
+  "units": [
+    {
+      "unit": "pg/mL",
+      "aliases": [
+        "pg/ml",
+        "ng/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "pmol/L",
+      "aliases": [
+        "pmol/l"
+      ],
+      "a": 1.3553808620222283,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "vitamin b12",
+    "b12",
+    "cobalamin",
+    "vit b12",
+    "cyanocobalamin",
+    "serum vitamin b12"
+  ],
+  "description": "Vitamin B12 helps make red blood cells and keeps nerves healthy.",
+  "reasonsHigh": [
+    "Taking B12 supplements or injections"
+  ],
+  "reasonsLow": [
+    "A vegetarian or vegan diet",
+    "Some medicines, such as metformin or acid-reducing tablets",
+    "Lower absorption with age"
+  ],
+  "questions": [
+    "Is my B12 level something to act on?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

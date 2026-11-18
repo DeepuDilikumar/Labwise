@@ -1,0 +1,49 @@
+{
+  "id": "crp",
+  "name": "CRP (C-reactive protein)",
+  "panel": "inflammation",
+  "canonicalUnit": "mg/L",
+  "siUnit": "mg/L",
+  "units": [
+    {
+      "unit": "mg/L",
+      "aliases": [
+        "mg/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 10,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "crp",
+    "c-reactive protein",
+    "c reactive protein",
+    "crp (quantitative)",
+    "crp quantitative"
+  ],
+  "description": "CRP is a protein the liver makes when there is inflammation in the body.",
+  "reasonsHigh": [
+    "A recent infection or injury",
+    "Long-term inflammation",
+    "Being overweight or smoking"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "What might be causing inflammation, if anything?",
+    "Should CRP be repeated once I'm well?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

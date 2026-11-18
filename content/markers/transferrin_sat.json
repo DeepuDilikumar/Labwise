@@ -1,0 +1,39 @@
+{
+  "id": "transferrin_sat",
+  "name": "Transferrin saturation",
+  "panel": "iron",
+  "canonicalUnit": "%",
+  "siUnit": "%",
+  "units": [
+    {
+      "unit": "%",
+      "aliases": [
+        "percent"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "transferrin saturation",
+    "tsat",
+    "iron saturation",
+    "% saturation",
+    "percent saturation"
+  ],
+  "description": "Transferrin saturation shows how much of your blood's iron-carrying capacity is being used.",
+  "reasonsHigh": [
+    "Iron supplements",
+    "Some inherited conditions that affect iron"
+  ],
+  "reasonsLow": [
+    "Low iron stores"
+  ],
+  "questions": [
+    "How do my iron results fit together?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

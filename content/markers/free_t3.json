@@ -1,0 +1,46 @@
+{
+  "id": "free_t3",
+  "name": "Free T3",
+  "panel": "thyroid",
+  "canonicalUnit": "pg/mL",
+  "siUnit": "pmol/L",
+  "units": [
+    {
+      "unit": "pg/mL",
+      "aliases": [
+        "pg/ml"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "pmol/L",
+      "aliases": [
+        "pmol/l"
+      ],
+      "a": 0.6510416666666666,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "free t3",
+    "ft3",
+    "free triiodothyronine",
+    "t3 free"
+  ],
+  "description": "Free T3 is another thyroid hormone. It is the most active form in the body.",
+  "reasonsHigh": [
+    "The thyroid making more hormone"
+  ],
+  "reasonsLow": [
+    "Recent illness",
+    "The thyroid making less hormone"
+  ],
+  "questions": [
+    "Is my free T3 important to look at in my case?"
+  ],
+  "critical": null,
+  "decimals": 2,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

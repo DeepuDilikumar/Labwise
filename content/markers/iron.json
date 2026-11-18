@@ -1,0 +1,51 @@
+{
+  "id": "iron",
+  "name": "Serum iron",
+  "panel": "iron",
+  "canonicalUnit": "µg/dL",
+  "siUnit": "µmol/L",
+  "units": [
+    {
+      "unit": "µg/dL",
+      "aliases": [
+        "ug/dl",
+        "µg/dl",
+        "mcg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "µmol/L",
+      "aliases": [
+        "umol/l",
+        "µmol/l"
+      ],
+      "a": 5.585,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "iron",
+    "serum iron",
+    "s. iron",
+    "iron, serum",
+    "fe"
+  ],
+  "description": "Serum iron measures the iron circulating in your blood. It can change a lot during the day and after meals.",
+  "reasonsHigh": [
+    "Iron supplements or a recent iron-rich meal"
+  ],
+  "reasonsLow": [
+    "Low iron intake",
+    "Blood loss, including heavy periods",
+    "Recent illness or inflammation"
+  ],
+  "questions": [
+    "How does my iron fit with my ferritin?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

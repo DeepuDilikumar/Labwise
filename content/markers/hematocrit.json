@@ -1,0 +1,51 @@
+{
+  "id": "hematocrit",
+  "name": "Haematocrit (PCV)",
+  "panel": "cbc",
+  "canonicalUnit": "%",
+  "siUnit": "L/L",
+  "units": [
+    {
+      "unit": "%",
+      "aliases": [
+        "percent"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "L/L",
+      "aliases": [
+        "l/l"
+      ],
+      "a": 100,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "hct",
+    "pcv",
+    "haematocrit",
+    "hematocrit",
+    "packed cell volume",
+    "pcv (packed cell volume)"
+  ],
+  "description": "Haematocrit is the share of your blood made up of red blood cells.",
+  "reasonsHigh": [
+    "Dehydration",
+    "Smoking",
+    "Living at high altitude"
+  ],
+  "reasonsLow": [
+    "Low iron or vitamins",
+    "Blood loss",
+    "Pregnancy"
+  ],
+  "questions": [
+    "Is my haematocrit in line with my other red cell results?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

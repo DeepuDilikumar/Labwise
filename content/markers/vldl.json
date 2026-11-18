@@ -1,0 +1,45 @@
+{
+  "id": "vldl",
+  "name": "VLDL cholesterol",
+  "panel": "lipids",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 38.67,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "vldl",
+    "vldl cholesterol",
+    "very low density lipoprotein"
+  ],
+  "description": "VLDL carries mostly triglycerides in the blood. On many reports it is calculated from triglycerides.",
+  "reasonsHigh": [
+    "Higher triglycerides"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "Do I need to think about VLDL separately from triglycerides?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

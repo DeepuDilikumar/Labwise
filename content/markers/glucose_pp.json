@@ -1,0 +1,58 @@
+{
+  "id": "glucose_pp",
+  "name": "Blood sugar after a meal (PP)",
+  "panel": "blood_sugar",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %",
+        "mg%"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 18.016,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "post prandial blood sugar",
+    "ppbs",
+    "pp blood sugar",
+    "glucose post prandial",
+    "post-prandial glucose",
+    "glucose (pp)",
+    "2 hr post prandial glucose",
+    "postprandial glucose",
+    "glucose pp"
+  ],
+  "description": "This measures blood sugar about two hours after a meal, to see how your body handles sugar from food.",
+  "reasonsHigh": [
+    "A large or sugary meal before the test",
+    "Stress or illness",
+    "How your body is handling sugar over time"
+  ],
+  "reasonsLow": [
+    "A very small meal",
+    "Some diabetes medicines"
+  ],
+  "questions": [
+    "How does my after-meal sugar compare with my fasting sugar?"
+  ],
+  "critical": {
+    "below": 54.0,
+    "above": 400.0
+  },
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

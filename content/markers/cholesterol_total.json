@@ -1,0 +1,54 @@
+{
+  "id": "cholesterol_total",
+  "name": "Total cholesterol",
+  "panel": "lipids",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 38.67,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "total cholesterol",
+    "cholesterol",
+    "cholesterol total",
+    "serum cholesterol",
+    "cholesterol, total",
+    "s. cholesterol"
+  ],
+  "description": "Total cholesterol is the overall amount of cholesterol in your blood, including the 'good' and 'bad' kinds.",
+  "reasonsHigh": [
+    "Diet high in saturated fat",
+    "Family history",
+    "Less physical activity",
+    "Some medicines or an underactive thyroid"
+  ],
+  "reasonsLow": [
+    "Some medicines",
+    "Recent illness",
+    "Overactive thyroid"
+  ],
+  "questions": [
+    "How do my cholesterol numbers look together?",
+    "What would you suggest we keep an eye on?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

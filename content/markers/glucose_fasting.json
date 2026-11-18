@@ -1,0 +1,62 @@
+{
+  "id": "glucose_fasting",
+  "name": "Fasting blood sugar",
+  "panel": "blood_sugar",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %",
+        "mg%"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 18.016,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "fasting blood sugar",
+    "fbs",
+    "fasting glucose",
+    "glucose fasting",
+    "glucose (fasting)",
+    "fasting plasma glucose",
+    "fpg",
+    "blood sugar fasting",
+    "glucose, fasting",
+    "plasma glucose fasting"
+  ],
+  "description": "This measures the sugar (glucose) in your blood after not eating for 8 to 12 hours.",
+  "reasonsHigh": [
+    "Eating or drinking something sweet before the test",
+    "Stress or a recent illness",
+    "Some medicines, such as steroids",
+    "How your body is handling sugar over time"
+  ],
+  "reasonsLow": [
+    "Fasting for a long time",
+    "Some diabetes medicines",
+    "Intense exercise before the test"
+  ],
+  "questions": [
+    "What does this fasting sugar mean for me?",
+    "Should we check my HbA1c too?"
+  ],
+  "critical": {
+    "below": 54.0,
+    "above": 400.0
+  },
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

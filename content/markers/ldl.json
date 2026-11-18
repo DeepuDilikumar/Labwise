@@ -1,0 +1,55 @@
+{
+  "id": "ldl",
+  "name": "LDL cholesterol",
+  "panel": "lipids",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 38.67,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "ldl",
+    "ldl cholesterol",
+    "ldl-c",
+    "low density lipoprotein",
+    "ldl cholesterol (direct)",
+    "ldl (calculated)",
+    "ldl cholesterol, calculated",
+    "direct ldl"
+  ],
+  "description": "LDL is often called 'bad' cholesterol because higher levels can build up in blood vessels over time.",
+  "reasonsHigh": [
+    "Diet high in saturated fat",
+    "Family history",
+    "Less physical activity",
+    "An underactive thyroid"
+  ],
+  "reasonsLow": [
+    "Some cholesterol medicines",
+    "Overactive thyroid"
+  ],
+  "questions": [
+    "What LDL level would you like me to aim for?",
+    "How does my LDL fit with my overall heart health?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

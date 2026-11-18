@@ -1,0 +1,52 @@
+{
+  "id": "bilirubin_total",
+  "name": "Total bilirubin",
+  "panel": "liver",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "µmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "µmol/L",
+      "aliases": [
+        "umol/l",
+        "µmol/l"
+      ],
+      "a": 0.05847953216374269,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "total bilirubin",
+    "bilirubin total",
+    "bilirubin, total",
+    "s. bilirubin total",
+    "bilirubin (total)",
+    "t. bilirubin",
+    "bilirubin"
+  ],
+  "description": "Bilirubin is a yellow substance made when old red blood cells break down. The liver clears it from the body.",
+  "reasonsHigh": [
+    "Gilbert's syndrome, a common harmless inherited trait",
+    "Fasting",
+    "Faster breakdown of red cells",
+    "Liver or bile duct changes"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "Is my bilirubin level something to look into further?"
+  ],
+  "critical": null,
+  "decimals": 2,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

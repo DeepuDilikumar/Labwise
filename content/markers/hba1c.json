@@ -1,0 +1,56 @@
+{
+  "id": "hba1c",
+  "name": "HbA1c",
+  "panel": "blood_sugar",
+  "canonicalUnit": "%",
+  "siUnit": "mmol/mol",
+  "units": [
+    {
+      "unit": "%",
+      "aliases": [
+        "percent",
+        "% of total hb",
+        "%hb"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/mol",
+      "aliases": [
+        "mmol/mol"
+      ],
+      "a": 0.09148,
+      "b": 2.152
+    }
+  ],
+  "synonyms": [
+    "hba1c",
+    "glycated haemoglobin",
+    "glycated hemoglobin",
+    "glycosylated haemoglobin",
+    "glycosylated hemoglobin",
+    "a1c",
+    "hemoglobin a1c",
+    "haemoglobin a1c",
+    "hba1c (glycated haemoglobin)"
+  ],
+  "description": "HbA1c shows your average blood sugar over roughly the last two to three months.",
+  "reasonsHigh": [
+    "Higher blood sugar over recent months",
+    "Some types of anaemia or low iron can raise the reading"
+  ],
+  "reasonsLow": [
+    "Recent blood loss or a blood transfusion",
+    "Some types of anaemia",
+    "Some inherited haemoglobin differences"
+  ],
+  "questions": [
+    "What does this number mean for me, given my history?",
+    "Should this be checked again, and when?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

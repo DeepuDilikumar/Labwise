@@ -1,0 +1,51 @@
+{
+  "id": "urea",
+  "name": "Urea",
+  "panel": "kidney",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 6.006,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "urea",
+    "blood urea",
+    "serum urea",
+    "s. urea",
+    "urea, serum"
+  ],
+  "description": "Urea is a waste product made when the body breaks down protein. The kidneys remove it from the blood.",
+  "reasonsHigh": [
+    "Not drinking enough fluids",
+    "A high-protein diet",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Low-protein diet",
+    "Liver changes",
+    "Pregnancy"
+  ],
+  "questions": [
+    "Is my urea result linked to how much water I drink?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

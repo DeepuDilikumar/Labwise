@@ -1,0 +1,67 @@
+{
+  "id": "haemoglobin",
+  "name": "Haemoglobin",
+  "panel": "cbc",
+  "canonicalUnit": "g/dL",
+  "siUnit": "g/L",
+  "units": [
+    {
+      "unit": "g/dL",
+      "aliases": [
+        "gm/dl",
+        "g/dl",
+        "gm%",
+        "g%"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "g/L",
+      "aliases": [
+        "gm/l",
+        "g/l"
+      ],
+      "a": 0.1,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 1.611,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "hb",
+    "hgb",
+    "haemoglobin",
+    "hemoglobin",
+    "haemoglobin (hb)",
+    "hemoglobin (hgb)"
+  ],
+  "description": "Haemoglobin is the protein in red blood cells that carries oxygen from your lungs to the rest of your body.",
+  "reasonsHigh": [
+    "Living at high altitude",
+    "Smoking",
+    "Not drinking enough fluids before the test"
+  ],
+  "reasonsLow": [
+    "Low iron, vitamin B12 or folate",
+    "Recent blood loss, including heavy periods",
+    "Pregnancy, which naturally dilutes the blood"
+  ],
+  "questions": [
+    "What might explain this haemoglobin result for me?",
+    "Would it help to check iron, B12 or folate?"
+  ],
+  "critical": {
+    "below": 7.0,
+    "above": 20.0
+  },
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

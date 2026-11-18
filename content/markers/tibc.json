@@ -1,0 +1,48 @@
+{
+  "id": "tibc",
+  "name": "TIBC",
+  "panel": "iron",
+  "canonicalUnit": "µg/dL",
+  "siUnit": "µmol/L",
+  "units": [
+    {
+      "unit": "µg/dL",
+      "aliases": [
+        "ug/dl",
+        "µg/dl",
+        "mcg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "µmol/L",
+      "aliases": [
+        "umol/l",
+        "µmol/l"
+      ],
+      "a": 5.585,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "tibc",
+    "total iron binding capacity"
+  ],
+  "description": "TIBC shows how much iron your blood is able to carry. It often rises when iron stores are low.",
+  "reasonsHigh": [
+    "Low iron stores",
+    "Pregnancy"
+  ],
+  "reasonsLow": [
+    "Inflammation",
+    "Liver changes"
+  ],
+  "questions": [
+    "What does my TIBC add to the picture?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

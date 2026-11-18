@@ -1,0 +1,42 @@
+{
+  "id": "mcv",
+  "name": "MCV (mean cell volume)",
+  "panel": "cbc",
+  "canonicalUnit": "fL",
+  "siUnit": "fL",
+  "units": [
+    {
+      "unit": "fL",
+      "aliases": [
+        "fl",
+        "femtoliters",
+        "cu micron",
+        "µm3"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "mcv",
+    "mean corpuscular volume",
+    "mean cell volume"
+  ],
+  "description": "MCV shows the average size of your red blood cells. It helps doctors understand the type of any change in red cells.",
+  "reasonsHigh": [
+    "Low vitamin B12 or folate",
+    "Alcohol use",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Low iron",
+    "Inherited differences in red cells, such as thalassaemia trait"
+  ],
+  "questions": [
+    "What does the size of my red cells tell you?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

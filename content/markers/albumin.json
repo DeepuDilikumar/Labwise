@@ -1,0 +1,48 @@
+{
+  "id": "albumin",
+  "name": "Albumin",
+  "panel": "liver",
+  "canonicalUnit": "g/dL",
+  "siUnit": "g/L",
+  "units": [
+    {
+      "unit": "g/dL",
+      "aliases": [
+        "g/dl",
+        "gm/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "g/L",
+      "aliases": [
+        "g/l"
+      ],
+      "a": 0.1,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "albumin",
+    "serum albumin",
+    "s. albumin",
+    "albumin, serum"
+  ],
+  "description": "Albumin is a protein made by the liver. It helps keep fluid in your blood vessels and carries substances around the body.",
+  "reasonsHigh": [
+    "Not drinking enough fluids"
+  ],
+  "reasonsLow": [
+    "Low protein in the diet",
+    "Liver or kidney changes",
+    "Recent illness or inflammation"
+  ],
+  "questions": [
+    "What might explain my albumin level?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

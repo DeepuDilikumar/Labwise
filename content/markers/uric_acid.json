@@ -1,0 +1,49 @@
+{
+  "id": "uric_acid",
+  "name": "Uric acid",
+  "panel": "kidney",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "µmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "µmol/L",
+      "aliases": [
+        "umol/l",
+        "µmol/l"
+      ],
+      "a": 0.016812373907195696,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "uric acid",
+    "serum uric acid",
+    "s. uric acid",
+    "urate"
+  ],
+  "description": "Uric acid is a waste product made when the body breaks down substances called purines, found in some foods and drinks.",
+  "reasonsHigh": [
+    "Diet rich in red meat, seafood or sugary drinks",
+    "Alcohol",
+    "Not drinking enough fluids",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "Is there anything about my uric acid level you'd like me to know?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

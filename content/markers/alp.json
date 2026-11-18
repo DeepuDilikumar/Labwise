@@ -1,0 +1,41 @@
+{
+  "id": "alp",
+  "name": "Alkaline phosphatase (ALP)",
+  "panel": "liver",
+  "canonicalUnit": "U/L",
+  "siUnit": "U/L",
+  "units": [
+    {
+      "unit": "U/L",
+      "aliases": [
+        "iu/l",
+        "u/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "alp",
+    "alkaline phosphatase",
+    "alk phos",
+    "alkaline phosphatase (alp)"
+  ],
+  "description": "ALP is an enzyme found in the liver and bones.",
+  "reasonsHigh": [
+    "Normal bone growth in teenagers",
+    "Pregnancy",
+    "Bone or bile duct changes"
+  ],
+  "reasonsLow": [
+    "Low zinc or magnesium",
+    "Some inherited conditions"
+  ],
+  "questions": [
+    "Could my ALP be coming from bone or liver?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

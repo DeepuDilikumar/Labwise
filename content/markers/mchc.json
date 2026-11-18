@@ -1,0 +1,47 @@
+{
+  "id": "mchc",
+  "name": "MCHC",
+  "panel": "cbc",
+  "canonicalUnit": "g/dL",
+  "siUnit": "g/L",
+  "units": [
+    {
+      "unit": "g/dL",
+      "aliases": [
+        "g/dl",
+        "gm/dl",
+        "%"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "g/L",
+      "aliases": [
+        "g/l"
+      ],
+      "a": 0.1,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "mchc",
+    "mean corpuscular haemoglobin concentration",
+    "mean corpuscular hemoglobin concentration"
+  ],
+  "description": "MCHC shows how concentrated the haemoglobin is inside your red blood cells.",
+  "reasonsHigh": [
+    "Some inherited red cell conditions",
+    "Sample handling effects"
+  ],
+  "reasonsLow": [
+    "Low iron"
+  ],
+  "questions": [
+    "Is this MCHC result something we should look at again?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

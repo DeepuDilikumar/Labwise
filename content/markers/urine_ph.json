@@ -1,0 +1,40 @@
+{
+  "id": "urine_ph",
+  "name": "Urine pH",
+  "panel": "urine",
+  "canonicalUnit": "pH",
+  "siUnit": "pH",
+  "units": [
+    {
+      "unit": "pH",
+      "aliases": [
+        "ph",
+        ""
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "urine ph",
+    "ph",
+    "reaction (ph)",
+    "ph (urine)"
+  ],
+  "description": "Urine pH shows how acidic or alkaline your urine is. It changes with what you eat and drink.",
+  "reasonsHigh": [
+    "A diet rich in vegetables",
+    "Some urine infections"
+  ],
+  "reasonsLow": [
+    "A diet rich in meat",
+    "Not drinking enough fluids"
+  ],
+  "questions": [
+    "Is my urine pH anything to think about?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

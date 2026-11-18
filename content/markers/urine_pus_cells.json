@@ -1,0 +1,42 @@
+{
+  "id": "urine_pus_cells",
+  "name": "Pus cells (urine)",
+  "panel": "urine",
+  "canonicalUnit": "/hpf",
+  "siUnit": "/hpf",
+  "units": [
+    {
+      "unit": "/hpf",
+      "aliases": [
+        "/hpf",
+        "cells/hpf",
+        "per hpf",
+        "/h.p.f"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "pus cells",
+    "urine pus cells",
+    "wbc (urine)",
+    "leucocytes (urine)",
+    "urine wbc"
+  ],
+  "description": "Pus cells are white blood cells in urine. A few are normal; more can be a sign of irritation or infection.",
+  "reasonsHigh": [
+    "A urine infection",
+    "Contamination of the sample"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "Should I have a repeat urine test or a urine culture?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

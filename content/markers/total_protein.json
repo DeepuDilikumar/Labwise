@@ -1,0 +1,49 @@
+{
+  "id": "total_protein",
+  "name": "Total protein",
+  "panel": "liver",
+  "canonicalUnit": "g/dL",
+  "siUnit": "g/L",
+  "units": [
+    {
+      "unit": "g/dL",
+      "aliases": [
+        "g/dl",
+        "gm/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "g/L",
+      "aliases": [
+        "g/l"
+      ],
+      "a": 0.1,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "total protein",
+    "protein total",
+    "serum total protein",
+    "proteins, total",
+    "total proteins"
+  ],
+  "description": "Total protein measures albumin and other proteins in your blood together.",
+  "reasonsHigh": [
+    "Not drinking enough fluids",
+    "Long-term inflammation"
+  ],
+  "reasonsLow": [
+    "Low protein in the diet",
+    "Liver or kidney changes"
+  ],
+  "questions": [
+    "How do my protein results fit together?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

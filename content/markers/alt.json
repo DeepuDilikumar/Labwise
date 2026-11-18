@@ -1,0 +1,48 @@
+{
+  "id": "alt",
+  "name": "ALT (SGPT)",
+  "panel": "liver",
+  "canonicalUnit": "U/L",
+  "siUnit": "U/L",
+  "units": [
+    {
+      "unit": "U/L",
+      "aliases": [
+        "iu/l",
+        "u/l",
+        "units/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "alt",
+    "sgpt",
+    "alanine aminotransferase",
+    "alt (sgpt)",
+    "sgpt (alt)",
+    "alanine transaminase"
+  ],
+  "description": "ALT is an enzyme found mostly in the liver. Higher levels in the blood can show the liver is under some strain.",
+  "reasonsHigh": [
+    "Some medicines or supplements",
+    "Alcohol",
+    "Fatty liver",
+    "A recent viral illness",
+    "Intense exercise"
+  ],
+  "reasonsLow": [
+    "Usually not a concern"
+  ],
+  "questions": [
+    "What might be raising my liver enzymes?",
+    "Should this be checked again?"
+  ],
+  "critical": {
+    "above": 1000.0
+  },
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

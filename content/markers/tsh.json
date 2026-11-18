@@ -1,0 +1,58 @@
+{
+  "id": "tsh",
+  "name": "TSH (thyroid stimulating hormone)",
+  "panel": "thyroid",
+  "canonicalUnit": "µIU/mL",
+  "siUnit": "mIU/L",
+  "units": [
+    {
+      "unit": "µIU/mL",
+      "aliases": [
+        "uiu/ml",
+        "µiu/ml",
+        "µu/ml",
+        "uu/ml",
+        "miu/ml"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mIU/L",
+      "aliases": [
+        "miu/l",
+        "mu/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "tsh",
+    "thyroid stimulating hormone",
+    "tsh (ultrasensitive)",
+    "ultrasensitive tsh",
+    "tsh 3rd generation",
+    "thyrotropin",
+    "s. tsh"
+  ],
+  "description": "TSH is a hormone from the pituitary gland in the brain. It tells the thyroid how much thyroid hormone to make.",
+  "reasonsHigh": [
+    "The thyroid making less hormone than the body needs",
+    "Recovering from an illness",
+    "Some medicines"
+  ],
+  "reasonsLow": [
+    "The thyroid making more hormone than the body needs",
+    "Some medicines, including thyroid medicine",
+    "Early pregnancy"
+  ],
+  "questions": [
+    "What does my TSH tell you about my thyroid?",
+    "Should we check my free T4 as well?"
+  ],
+  "critical": null,
+  "decimals": 2,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

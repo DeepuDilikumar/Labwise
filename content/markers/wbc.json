@@ -1,0 +1,80 @@
+{
+  "id": "wbc",
+  "name": "White blood cell count",
+  "panel": "cbc",
+  "canonicalUnit": "10^3/µL",
+  "siUnit": "10^9/L",
+  "units": [
+    {
+      "unit": "10^3/µL",
+      "aliases": [
+        "x10^3/ul",
+        "10^3/ul",
+        "thou/µl",
+        "k/µl",
+        "k/ul",
+        "x10^3/µl",
+        "10^3/µl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "10^9/L",
+      "aliases": [
+        "x10^9/l",
+        "10^9/l",
+        "g/l"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "/µL",
+      "aliases": [
+        "/cumm",
+        "cells/cumm",
+        "/ul",
+        "/µl",
+        "cells/µl",
+        "/mm3"
+      ],
+      "a": 0.001,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "wbc",
+    "tlc",
+    "total leucocyte count",
+    "total leukocyte count",
+    "white blood cell count",
+    "white cell count",
+    "total wbc count",
+    "leukocytes",
+    "wbc count"
+  ],
+  "description": "White blood cells are part of your immune system. They help the body fight infections.",
+  "reasonsHigh": [
+    "A recent infection or inflammation",
+    "Physical or emotional stress",
+    "Smoking",
+    "Some medicines, such as steroids"
+  ],
+  "reasonsLow": [
+    "Some viral infections",
+    "Some medicines",
+    "Naturally lower counts in some healthy people"
+  ],
+  "questions": [
+    "Could a recent illness explain this result?",
+    "Should this be repeated once I'm well?"
+  ],
+  "critical": {
+    "below": 1.5,
+    "above": 30.0
+  },
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

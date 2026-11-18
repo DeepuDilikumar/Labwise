@@ -1,0 +1,53 @@
+{
+  "id": "vitamin_d",
+  "name": "Vitamin D (25-OH)",
+  "panel": "vitamins",
+  "canonicalUnit": "ng/mL",
+  "siUnit": "nmol/L",
+  "units": [
+    {
+      "unit": "ng/mL",
+      "aliases": [
+        "ng/ml"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "nmol/L",
+      "aliases": [
+        "nmol/l"
+      ],
+      "a": 0.40064102564102566,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "vitamin d",
+    "25-oh vitamin d",
+    "25 hydroxy vitamin d",
+    "vitamin d (25-oh)",
+    "25(oh)d",
+    "vitamin d3",
+    "vitamin d total",
+    "25-hydroxyvitamin d",
+    "vit d"
+  ],
+  "description": "This measures the main stored form of vitamin D. Vitamin D helps your body use calcium and keep bones strong.",
+  "reasonsHigh": [
+    "Taking vitamin D supplements"
+  ],
+  "reasonsLow": [
+    "Little time in sunlight",
+    "Darker skin, which makes less vitamin D from sunlight",
+    "Diet low in vitamin D"
+  ],
+  "questions": [
+    "What range does your clinic use for vitamin D?",
+    "Is my vitamin D level something to act on?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}

@@ -1,0 +1,52 @@
+{
+  "id": "hdl",
+  "name": "HDL cholesterol",
+  "panel": "lipids",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl",
+        "mg %"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 38.67,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "hdl",
+    "hdl cholesterol",
+    "hdl-c",
+    "high density lipoprotein",
+    "hdl cholesterol (direct)",
+    "direct hdl"
+  ],
+  "description": "HDL is often called 'good' cholesterol because it helps carry cholesterol away from blood vessels.",
+  "reasonsHigh": [
+    "Regular physical activity",
+    "Family history"
+  ],
+  "reasonsLow": [
+    "Less physical activity",
+    "Smoking",
+    "Being overweight",
+    "Some medicines"
+  ],
+  "questions": [
+    "Is there anything about my HDL you'd like me to know?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

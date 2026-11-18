@@ -1,0 +1,54 @@
+{
+  "id": "calcium",
+  "name": "Calcium",
+  "panel": "electrolytes",
+  "canonicalUnit": "mg/dL",
+  "siUnit": "mmol/L",
+  "units": [
+    {
+      "unit": "mg/dL",
+      "aliases": [
+        "mg/dl"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    },
+    {
+      "unit": "mmol/L",
+      "aliases": [
+        "mmol/l"
+      ],
+      "a": 4.008,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "calcium",
+    "serum calcium",
+    "total calcium",
+    "ca",
+    "s. calcium",
+    "calcium, total"
+  ],
+  "description": "Calcium is a mineral that keeps bones and teeth strong and helps muscles and nerves work.",
+  "reasonsHigh": [
+    "Calcium or vitamin D supplements",
+    "Not drinking enough fluids",
+    "Changes in the glands that control calcium"
+  ],
+  "reasonsLow": [
+    "Low vitamin D",
+    "Low albumin, which affects the reading",
+    "Some medicines"
+  ],
+  "questions": [
+    "Should my calcium be adjusted for my albumin?"
+  ],
+  "critical": {
+    "below": 6.5,
+    "above": 13.0
+  },
+  "decimals": 1,
+  "siDecimals": 2,
+  "reviewedByDoctor": false
+}

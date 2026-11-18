@@ -1,0 +1,37 @@
+{
+  "id": "mch",
+  "name": "MCH",
+  "panel": "cbc",
+  "canonicalUnit": "pg",
+  "siUnit": "pg",
+  "units": [
+    {
+      "unit": "pg",
+      "aliases": [
+        "picograms"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "mch",
+    "mean corpuscular haemoglobin",
+    "mean corpuscular hemoglobin"
+  ],
+  "description": "MCH is the average amount of haemoglobin inside each red blood cell.",
+  "reasonsHigh": [
+    "Larger red cells, for example with low B12 or folate"
+  ],
+  "reasonsLow": [
+    "Low iron",
+    "Inherited red cell differences"
+  ],
+  "questions": [
+    "Does my MCH change anything about what you'd look at next?"
+  ],
+  "critical": null,
+  "decimals": 1,
+  "siDecimals": 1,
+  "reviewedByDoctor": false
+}

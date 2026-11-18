@@ -1,0 +1,45 @@
+{
+  "id": "egfr",
+  "name": "eGFR",
+  "panel": "kidney",
+  "canonicalUnit": "mL/min/1.73m²",
+  "siUnit": "mL/min/1.73m²",
+  "units": [
+    {
+      "unit": "mL/min/1.73m²",
+      "aliases": [
+        "ml/min/1.73m2",
+        "ml/min/1.73 m2",
+        "ml/min/1.73m²",
+        "ml/min",
+        "ml/min/1.73 sq m"
+      ],
+      "a": 1.0,
+      "b": 0.0
+    }
+  ],
+  "synonyms": [
+    "egfr",
+    "estimated gfr",
+    "estimated glomerular filtration rate",
+    "gfr",
+    "egfr (ckd-epi)"
+  ],
+  "description": "eGFR is an estimate of how well your kidneys filter blood, worked out from your creatinine, age and sometimes sex.",
+  "reasonsHigh": [
+    "Usually not a concern"
+  ],
+  "reasonsLow": [
+    "Not drinking enough fluids",
+    "Older age",
+    "Changes in kidney function"
+  ],
+  "questions": [
+    "What does my eGFR mean for my kidneys?",
+    "Should we track this over time?"
+  ],
+  "critical": null,
+  "decimals": 0,
+  "siDecimals": 0,
+  "reviewedByDoctor": false
+}
