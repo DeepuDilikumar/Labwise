@@ -34,7 +34,10 @@
     "pricing": "Pricing",
     "howItWorks": "How it works",
     "faq": "FAQ",
-    "menu": "Menu"
+    "menu": "Menu",
+    "tryIt": "Try it",
+    "openApp": "Open app",
+    "getStarted": "Get started"
   },
   "status": {
     "in_range": "In range",
@@ -73,13 +76,26 @@
   "prefs": {
     "language": "Language",
     "region": "Region",
-    "regions": { "in": "India", "us": "United States" },
+    "regions": {
+      "in": "India",
+      "us": "United States"
+    },
     "theme": "Theme",
-    "themes": { "system": "System", "light": "Light", "dark": "Dark" },
+    "themes": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
     "textSize": "Text size",
-    "textSizes": { "default": "Default", "large": "Larger" },
+    "textSizes": {
+      "default": "Default",
+      "large": "Larger"
+    },
     "units": "Units",
-    "unitSystems": { "conventional": "mg/dL", "si": "mmol/L (SI)" }
+    "unitSystems": {
+      "conventional": "mg/dL",
+      "si": "mmol/L (SI)"
+    }
   },
   "trends": {
     "bandNote": "Shaded band is your lab's range",
@@ -124,5 +140,149 @@
     "title": "Design system",
     "subtitle": "Every component and state, in one place.",
     "theme": "Theme"
+  },
+  "landing": {
+    "skip": "Skip to content",
+    "marqueeLabel": "Some of the tests Labwise explains",
+    "hero": {
+      "eyebrow": "Lab reports, in plain language",
+      "titleA": "Your lab report,",
+      "word1": "finally clear.",
+      "word2": "in your language.",
+      "word3": "a lot less scary.",
+      "subtitle": "Snap a photo of your report or prescription. Labwise shows what each result means, what to ask your doctor, and which kind of doctor to see.",
+      "ctaPrimary": "Get started free",
+      "ctaSecondary": "See how it reads a result",
+      "trust1": "First report free",
+      "trust2": "Private by design",
+      "trust3": "Explains, never diagnoses",
+      "chipValue": "HbA1c · 6.1%",
+      "chipQuestion": "Should this be checked again, and when?",
+      "chipSpecialist": "Endocrinologist",
+      "chipFind": "Find near me"
+    },
+    "scene": {
+      "person": "Report for Asha",
+      "step1": "Reading your report",
+      "step2": "Checking ranges",
+      "step3": "Writing it in plain language",
+      "bigPicture": "The big picture",
+      "headline": "Mostly in range.",
+      "b1": "22 of 25 results are within your lab's ranges.",
+      "b2": "Blood sugar is a little high — worth asking about."
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From confusing to clear in under a minute",
+      "body": "No medical words to look up. No scary search results. Just your report, explained calmly.",
+      "s1Title": "Snap or upload your report",
+      "s1Body": "Take a photo of each page, or add the PDF from your lab. We guide the camera so every value is readable.",
+      "s2Title": "We check every value",
+      "s2Body": "Each result is compared with the range printed on your report — worked out by simple rules, not guessed by AI.",
+      "s3Title": "Read it in plain language",
+      "s3Body": "See the big picture first, then each result: what it measures, why it can change, and what to ask your doctor.",
+      "screenUpload": "Fit the page inside the corners"
+    },
+    "play": {
+      "eyebrow": "Try it right here",
+      "title": "Move the value. Watch it read.",
+      "body": "This is the same logic Labwise uses on your report. Drag the slider to see how a result is placed against the lab's range.",
+      "pickMarker": "Choose a test",
+      "units": "Units",
+      "sliderLabel": "{name} value",
+      "drag": "Drag to change the value",
+      "explain": {
+        "inRange": "{name} is within this lab's range of {low}–{high} {unit}. On Labwise you'd see what this test measures and questions to ask at your next visit.",
+        "high": "{name} is above this lab's range of {low}–{high} {unit}. Many everyday things can raise it. Labwise would list common reasons and what to ask your doctor — never a diagnosis.",
+        "low": "{name} is below this lab's range of {low}–{high} {unit}. Labwise would explain common reasons values can be lower and suggest questions for your doctor."
+      },
+      "engineNote": "Status comes from the range printed on the report, using fixed rules. AI only helps with the wording."
+    },
+    "bento": {
+      "eyebrow": "Everything in one calm place",
+      "title": "Made for real families and real reports",
+      "body": "Keep every report organised, see how things change, and share a clear summary with the people who help you.",
+      "trendsKicker": "Trends",
+      "trendsTitle": "See how each result changes over time",
+      "trendsBody": "Every report adds a point. The shaded band is your lab's range, so progress is easy to spot.",
+      "familyTitle": "One app for the whole family",
+      "familyBody": "Keep reports for yourself, your parents and your kids — each in their own profile.",
+      "langKicker": "Languages",
+      "langTitle": "English, Hindi and Malayalam",
+      "whoTitle": "Know who to see",
+      "whoBody": "We suggest the type of doctor that fits your results, with one tap to find one nearby.",
+      "who1": "General physician",
+      "who2": "Endocrinologist",
+      "shareTitle": "Share a clear summary",
+      "shareBody": "Send a tidy image or PDF to family or your doctor before the visit.",
+      "privacyTitle": "Your data stays yours",
+      "privacyBody": "No ads, no trackers, no selling data. Photos are deleted after 30 days by default, and you can erase everything in one tap.",
+      "privacyDeleting": "Deleting all your data…",
+      "privacyDone": "Everything deleted"
+    },
+    "principles": {
+      "eyebrow": "Our promise",
+      "title": "Clear and honest. Never alarming.",
+      "p1Title": "Your lab's ranges, not ours",
+      "p1Body": "Whether a value is high or low comes from the range printed on your report, using fixed rules you can check.",
+      "p2Title": "No diagnosis. No dose advice.",
+      "p2Body": "We explain what tests measure and common reasons they change. We never tell you what you have, or to start or stop a medicine.",
+      "p3Title": "Your doctor stays in charge",
+      "p3Body": "Every explanation ends with questions to ask your doctor, and a calm nudge when a result should be checked soon.",
+      "stat1": "common tests explained",
+      "stat2": "languages at launch",
+      "stat3": "pages per report",
+      "stat4": "ads or trackers"
+    },
+    "pricing": {
+      "eyebrow": "Pricing",
+      "title": "Simple, fair, no surprises",
+      "body": "Start free. Pay only when you need more. Cancel any time.",
+      "freeName": "First report",
+      "freeCadence": "free",
+      "singleName": "One report",
+      "singleCadence": "per report",
+      "monthlyName": "Family",
+      "monthlyCadence": "per month",
+      "popular": "Best for families",
+      "f1": "Full plain-language explanation",
+      "f2": "Questions to ask your doctor",
+      "f3": "No card needed",
+      "f4": "Share card and PDF",
+      "m1": "Up to {count} reports a month",
+      "m2": "Profiles for the whole family",
+      "m3": "Trends across every report",
+      "m4": "Cancel any time",
+      "ctaFree": "Start free",
+      "ctaStart": "Get started",
+      "trust": "Secure checkout. We never see your card or UPI details."
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Good to know",
+      "q1": "Does Labwise diagnose anything?",
+      "a1": "No. Labwise explains what your report says in plain language. It never tells you that you have a condition, and it never suggests starting, stopping or changing a medicine. Your doctor makes those decisions.",
+      "q2": "How do you decide if a value is high or low?",
+      "a2": "We compare each value with the reference range printed on your own report, using fixed rules. AI helps read the report and write the explanation, but it never decides whether a result is in range.",
+      "q3": "Which reports work?",
+      "a3": "Most blood and urine test reports — blood count, sugar, cholesterol, thyroid, kidney, liver, vitamins, iron and more — plus printed or handwritten prescriptions. We don't read scans, X-rays or ECGs.",
+      "q4": "Is my data private?",
+      "a4": "Yes. We don't sell data, show ads or use trackers. We remove names, phone numbers and IDs before the AI reads your report where we can. Original photos are deleted after 30 days by default, and you can delete everything in one tap.",
+      "q5": "Can I keep reports for my parents?",
+      "a5": "Yes. Create a profile for each person and keep their reports and trends separate. Many people use Labwise to help their parents understand their results.",
+      "q6": "What if a result looks serious?",
+      "a6": "If your lab marks a value as critical, or it's far outside a safe range, we show a calm message asking you to speak to a doctor soon. In an emergency, call your local emergency number."
+    },
+    "final": {
+      "title": "Understand your next report in a minute.",
+      "body": "Your first report is free. No card, no jargon, no stress.",
+      "cta": "Get started free"
+    },
+    "footer": {
+      "tagline": "Lab reports and prescriptions, explained calmly in plain language.",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "disclaimer": "Medical disclaimer"
+    }
   }
 }

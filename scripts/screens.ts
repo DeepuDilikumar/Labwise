@@ -27,7 +27,14 @@ const locale = flag("locale") ?? "en";
     const page = await ctx.newPage();
     for (const r of routes.length ? routes : ["/"]) {
       await page.goto(base + r, { waitUntil: "networkidle" });
-      await page.waitForTimeout(400);
+      // Scroll through so in-view animations settle, then return to top.
+      const h = await page.evaluate(() => document.body.scrollHeight);
+      for (let y = 0; y < h; y += 500) {
+        await page.evaluate((yy) => window.scrollTo(0, yy), y);
+        await page.waitForTimeout(120);
+      }
+      await page.evaluate(() => window.scrollTo(0, 0));
+      await page.waitForTimeout(Number(flag("wait") ?? 600));
       const name = `${out}/${(r.replace(/\W+/g, "_") || "_").replace(/^_|_$/g, "") || "home"}-${w}-${theme}${locale !== "en" ? "-" + locale : ""}.png`;
       await page.screenshot({ path: name, fullPage: flag("full") !== "false" });
       console.log(name);

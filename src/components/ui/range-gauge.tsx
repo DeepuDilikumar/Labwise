@@ -51,16 +51,17 @@ export function RangeGauge({ value, range, tone, lowLabel, highLabel, unit, clas
         {range.low != null && <span className="absolute top-1/2 h-3 w-px -translate-y-1/2 bg-ok/60" style={{ left: pct(g.bandStart) }} />}
         {range.high != null && <span className="absolute top-1/2 h-3 w-px -translate-y-1/2 bg-ok/60" style={{ left: pct(g.bandEnd) }} />}
         {/* value marker */}
-        {/* Full-width layer translated by a % of the track, so the motion is a transform. */}
+        {/* Track-wide layer parked just left of the track and translated by a % of its width,
+            so the motion is a transform and never widens the page on the right. */}
         <motion.div
-          className="pointer-events-none absolute inset-0"
+          className="pointer-events-none absolute inset-y-0 -left-full w-full"
           initial={run ? { x: pct(g.bandStart + (g.bandEnd - g.bandStart) / 2) } : false}
           animate={{ x: pct(g.value) }}
           transition={{ duration: 0.7, ease: [0.25, 1, 0.5, 1], delay: run ? 0.12 : 0 }}
         >
           <span
             className={cn(
-              "absolute left-0 top-1/2 block size-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-surface shadow-[var(--shadow-sm)]",
+              "absolute right-0 top-1/2 block size-4 translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-surface shadow-[var(--shadow-sm)]",
               toneClasses[tone].dot,
             )}
           />

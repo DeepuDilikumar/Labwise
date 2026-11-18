@@ -26,6 +26,12 @@ describe("design tokens — WCAG AA", () => {
       ["warn on surface", p.warn, p.surface],
       ["out on surface", p.out, p.surface],
       ["crit on surface", p.crit, p.surface],
+      ["peach-ink on peach", p.peachInk, p.peach],
+      ["lilac-ink on lilac", p.lilacInk, p.lilac],
+      ["sky-ink on sky", p.skyInk, p.sky],
+      ["lime-ink on lime", p.limeInk, p.lime],
+      ["sun-ink on sun", p.sunInk, p.sun],
+      ["mint-ink on mint", p.mintInk, p.mint],
     ];
     for (const [name, fg, bg] of pairs) {
       it(`${theme}: ${name} ≥ ${AA}`, () => {

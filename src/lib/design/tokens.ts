@@ -23,6 +23,12 @@ export const palette = {
     outSoft: "#fbebe6",
     crit: "#9c1726",
     critSoft: "#f9e2e4",
+    peach: "#ffe9df", peachInk: "#8a3a1c",
+    lilac: "#ece9ff", lilacInk: "#4636a6",
+    sky: "#e2f0fb", skyInk: "#1c5584",
+    lime: "#eaf5d6", limeInk: "#3f5c14",
+    sun: "#fff2c7", sunInk: "#7a5400",
+    mint: "#dcf3ea", mintInk: "#0a5c4b",
   },
   dark: {
     bg: "#0b1210",
@@ -44,6 +50,12 @@ export const palette = {
     outSoft: "#2e1a15",
     crit: "#ff8590",
     critSoft: "#351519",
+    peach: "#2c1a14", peachInk: "#ffb899",
+    lilac: "#1d1a33", lilacInk: "#bdb3ff",
+    sky: "#13222f", skyInk: "#9ccdf3",
+    lime: "#1a2412", limeInk: "#bfe08a",
+    sun: "#2a2311", sunInk: "#f4d27a",
+    mint: "#10291f", mintInk: "#8fe0c9",
   },
 } as const;
 

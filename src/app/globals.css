@@ -41,6 +41,20 @@
   --info: #2b5a8a;
   --info-soft: #e8eff7;
 
+  /* Marketing accents: pastel surfaces with matching AA-safe ink. Used for tiles, never for status. */
+  --peach: #ffe9df;
+  --peach-ink: #8a3a1c;
+  --lilac: #ece9ff;
+  --lilac-ink: #4636a6;
+  --sky: #e2f0fb;
+  --sky-ink: #1c5584;
+  --lime: #eaf5d6;
+  --lime-ink: #3f5c14;
+  --sun: #fff2c7;
+  --sun-ink: #7a5400;
+  --mint: #dcf3ea;
+  --mint-ink: #0a5c4b;
+
   --shadow-color: 160 20% 12%;
   --glow: 160 70% 40%;
   --overlay: rgb(15 26 23 / 0.4);
@@ -79,6 +93,19 @@
   --info: #8db8e6;
   --info-soft: #14212e;
 
+  --peach: #2c1a14;
+  --peach-ink: #ffb899;
+  --lilac: #1d1a33;
+  --lilac-ink: #bdb3ff;
+  --sky: #13222f;
+  --sky-ink: #9ccdf3;
+  --lime: #1a2412;
+  --lime-ink: #bfe08a;
+  --sun: #2a2311;
+  --sun-ink: #f4d27a;
+  --mint: #10291f;
+  --mint-ink: #8fe0c9;
+
   --shadow-color: 160 40% 2%;
   --glow: 160 60% 45%;
   --overlay: rgb(0 0 0 / 0.6);
@@ -112,6 +139,18 @@
   --color-crit: var(--crit);
   --color-crit-soft: var(--crit-soft);
   --color-crit-line: var(--crit-line);
+  --color-peach: var(--peach);
+  --color-peach-ink: var(--peach-ink);
+  --color-lilac: var(--lilac);
+  --color-lilac-ink: var(--lilac-ink);
+  --color-sky: var(--sky);
+  --color-sky-ink: var(--sky-ink);
+  --color-lime: var(--lime);
+  --color-lime-ink: var(--lime-ink);
+  --color-sun: var(--sun);
+  --color-sun-ink: var(--sun-ink);
+  --color-mint: var(--mint);
+  --color-mint-ink: var(--mint-ink);
   --color-info: var(--info);
   --color-info-soft: var(--info-soft);
 
@@ -190,6 +229,10 @@
   :lang(ml) :is(h1, h2, h3, h4, .font-display) {
     line-height: 1.45;
     letter-spacing: 0;
+  }
+  :lang(hi) .italic,
+  :lang(ml) .italic {
+    font-style: normal;
   }
   :lang(hi) .font-display,
   :lang(ml) .font-display {
@@ -284,4 +327,57 @@
     opacity: 0;
     transform: translate(-50%, -48%) scale(0.98);
   }
+}
+
+/* ---------------- Living motion (marketing) ---------------- */
+@keyframes blob-a {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(8%, -6%) scale(1.08); }
+  66% { transform: translate(-6%, 5%) scale(0.95); }
+}
+@keyframes blob-b {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-10%, -8%) scale(1.12); }
+}
+@keyframes blob-c {
+  0%, 100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+  50% { transform: translate(6%, 10%) rotate(30deg) scale(0.92); }
+}
+@keyframes float-y {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+@keyframes scan {
+  0% { transform: translateY(-10%); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(1100%); opacity: 0; }
+}
+@keyframes ping-soft {
+  0% { transform: scale(1); opacity: 0.6; }
+  80%, 100% { transform: scale(2.4); opacity: 0; }
+}
+@keyframes word-in {
+  from { opacity: 0; transform: translateY(0.4em); filter: blur(6px); }
+  to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+.animate-blob-a { animation: blob-a 18s ease-in-out infinite; }
+.animate-blob-b { animation: blob-b 22s ease-in-out infinite; }
+.animate-blob-c { animation: blob-c 26s ease-in-out infinite; }
+.animate-float { animation: float-y 6s ease-in-out infinite; }
+.animate-marquee { animation: marquee 40s linear infinite; }
+.animate-ping-soft { animation: ping-soft 2.2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+.mask-fade-x {
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }

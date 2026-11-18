@@ -29,3 +29,11 @@ rate-limit history. Writes go through `asService()` after authorisation checks.
 ## 006 — Borderline is "just outside", not "near the edge"
 "Borderline" (amber) means outside the printed range by ≤10% of the range width. Values inside the range are always
 "In range" — we never imply a problem with a value the lab calls normal.
+
+## 007 — "Alive" marketing layer, calm product layer
+Feedback after M1: the design should feel alive and inspiring (reference: large consumer health apps).
+The landing page now uses a pastel accent palette (mint, peach, lilac, sky, sun; AA-tested), drifting colour fields,
+a live phone that runs real components on loop, scroll-linked storytelling, and an interactive playground that runs
+the real status engine. Inside the app, motion stays purposeful and status colours stay reserved for status.
+All motion is transform/opacity, pauses off-screen where it loops, and is disabled by `prefers-reduced-motion`.
+Stats on the page are product facts (markers covered, languages, pages, trackers), never invented user numbers.
