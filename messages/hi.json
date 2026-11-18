@@ -1,0 +1,129 @@
+{
+  "_review": "NEEDS NATIVE REVIEW — machine-assisted draft by the engineering team. Do not ship without review by a native Hindi speaker.",
+  "meta": {
+    "title": "Labwise — अपनी लैब रिपोर्ट समझें",
+    "description": "लैब रिपोर्ट या पर्चा अपलोड करें और आसान भाषा में शांत समझ पाएं, डॉक्टर से पूछने के सवाल, और किस तरह के डॉक्टर से मिलें।"
+  },
+  "common": {
+    "continue": "आगे बढ़ें",
+    "back": "वापस",
+    "cancel": "रद्द करें",
+    "close": "बंद करें",
+    "save": "सेव करें",
+    "saved": "सेव हो गया",
+    "retry": "फिर से कोशिश करें",
+    "done": "हो गया",
+    "edit": "बदलें",
+    "delete": "हटाएं",
+    "loading": "लोड हो रहा है…",
+    "optional": "वैकल्पिक",
+    "skipToContent": "मुख्य सामग्री पर जाएं",
+    "somethingWrong": "कुछ गड़बड़ हो गई",
+    "somethingWrongBody": "यह नहीं हो पाया। आपका डेटा सुरक्षित है — कृपया फिर से कोशिश करें।",
+    "offline": "आप ऑफ़लाइन हैं",
+    "offlineBody": "अपना कनेक्शन जांचें। आपकी सेव की गई जानकारी यहीं है।"
+  },
+  "nav": {
+    "home": "होम",
+    "add": "रिपोर्ट जोड़ें",
+    "trends": "रुझान",
+    "settings": "सेटिंग्स",
+    "signIn": "साइन इन",
+    "signOut": "साइन आउट",
+    "privacy": "प्राइवेसी",
+    "help": "मदद",
+    "pricing": "कीमत",
+    "howItWorks": "यह कैसे काम करता है",
+    "faq": "सवाल-जवाब",
+    "menu": "मेन्यू"
+  },
+  "status": {
+    "in_range": "सामान्य सीमा में",
+    "low": "कम",
+    "high": "ज़्यादा",
+    "slightly_low": "थोड़ा कम",
+    "slightly_high": "थोड़ा ज़्यादा",
+    "critical_low": "बहुत कम",
+    "critical_high": "बहुत ज़्यादा",
+    "no_range": "सीमा नहीं दी गई",
+    "unparsed": "पढ़ा नहीं जा सका"
+  },
+  "gauge": {
+    "ariaBetween": "आपकी लैब की सीमा {low} से {high} {unit} है",
+    "ariaBelow": "आपकी लैब की सीमा {high} {unit} से कम है",
+    "ariaAbove": "आपकी लैब की सीमा {low} {unit} से ज़्यादा है"
+  },
+  "marker": {
+    "yourLabRange": "आपकी लैब की सीमा: {range}",
+    "noRange": "आपकी रिपोर्ट पर कोई संदर्भ सीमा नहीं मिली।",
+    "labFlag": "लैब ने इसे “{flag}” लिखा है",
+    "editedByYou": "आपने बदला",
+    "whatItMeasures": "यह क्या मापता है",
+    "reasonsHigh": "ज़्यादा होने के आम कारण",
+    "reasonsLow": "कम होने के आम कारण",
+    "reasonsNote": "ये सामान्य कारण हैं, निदान नहीं। आपके डॉक्टर पूरी तस्वीर देखेंगे।",
+    "questions": "डॉक्टर से पूछने के सवाल"
+  },
+  "upload": {
+    "dropTitle": "अपनी रिपोर्ट जोड़ें",
+    "dropBody": "एक PDF, या हर पेज की साफ़ फ़ोटो। ज़्यादा से ज़्यादा 10 पेज।",
+    "takePhoto": "फ़ोटो लें",
+    "chooseFile": "फ़ाइल चुनें",
+    "limits": "PDF, JPG, PNG या HEIC · 20 MB तक"
+  },
+  "prefs": {
+    "language": "भाषा",
+    "region": "क्षेत्र",
+    "regions": { "in": "भारत", "us": "अमेरिका" },
+    "theme": "थीम",
+    "themes": { "system": "सिस्टम", "light": "लाइट", "dark": "डार्क" },
+    "textSize": "अक्षर का आकार",
+    "textSizes": { "default": "सामान्य", "large": "बड़ा" },
+    "units": "इकाइयां",
+    "unitSystems": { "conventional": "mg/dL", "si": "mmol/L (SI)" }
+  },
+  "trends": {
+    "bandNote": "छायांकित पट्टी आपकी लैब की सीमा है",
+    "noBand": "इन रिपोर्ट्स पर कोई सीमा नहीं",
+    "viewLabel": "ऐसे देखें",
+    "chart": "चार्ट",
+    "table": "तालिका",
+    "date": "तारीख",
+    "value": "मान",
+    "status": "स्थिति",
+    "aria": "{count} रिपोर्ट्स में {title}"
+  },
+  "disclaimer": {
+    "short": "Labwise रिपोर्ट समझाता है। यह निदान नहीं करता और डॉक्टर की जगह नहीं लेता।"
+  },
+  "auth": {
+    "title": "Labwise में साइन इन करें",
+    "subtitle": "हम आपको 6 अंकों का कोड भेजेंगे। कोई पासवर्ड नहीं।",
+    "phone": "फ़ोन",
+    "email": "ईमेल",
+    "phoneLabel": "मोबाइल नंबर",
+    "emailLabel": "ईमेल पता",
+    "emailPlaceholder": "you@example.com",
+    "sendCode": "कोड भेजें",
+    "codeLabel": "6 अंकों का कोड",
+    "codeSentTo": "हमने {target} पर कोड भेजा है।",
+    "verify": "पुष्टि करें और आगे बढ़ें",
+    "resend": "नया कोड भेजें",
+    "resendIn": "{seconds} सेकंड में नया कोड",
+    "changeContact": "बदलें",
+    "devCode": "लोकल मोड: आपका कोड {code} है",
+    "errors": {
+      "invalidPhone": "कृपया सही मोबाइल नंबर डालें।",
+      "invalidEmail": "कृपया सही ईमेल पता डालें।",
+      "invalidCode": "कोड मेल नहीं खाया। कृपया जांचकर फिर से कोशिश करें।",
+      "tooMany": "बहुत ज़्यादा कोशिशें। कृपया एक मिनट रुककर फिर कोशिश करें।",
+      "sendFailed": "अभी कोड नहीं भेजा जा सका। कृपया फिर से कोशिश करें।"
+    },
+    "terms": "आगे बढ़कर आप हमारी <terms>शर्तों</terms> और <privacy>प्राइवेसी पॉलिसी</privacy> से सहमत होते हैं।"
+  },
+  "design": {
+    "title": "डिज़ाइन सिस्टम",
+    "subtitle": "हर कॉम्पोनेंट और हर स्थिति, एक जगह।",
+    "theme": "थीम"
+  }
+}

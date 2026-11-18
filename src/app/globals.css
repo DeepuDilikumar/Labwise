@@ -1,0 +1,287 @@
+@import "tailwindcss";
+
+/* Dark mode follows the data-theme attribute set on <html> (system resolved by an inline script). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ------------------------------------------------------------------
+   Design tokens. Raw values live here as CSS variables (light + dark);
+   Tailwind consumes them through @theme. Contrast is verified by
+   src/lib/design/tokens.test.ts, which reads src/lib/design/tokens.ts.
+   Keep both in sync.
+   ------------------------------------------------------------------ */
+:root {
+  --bg: #fafaf7;
+  --surface: #ffffff;
+  --surface-2: #f3f3ee;
+  --surface-3: #ebebe4;
+  --ink: #0f1a17;
+  --ink-2: #3d4945;
+  --ink-3: #5f6b67;
+  --line: #e7e7e0;
+  --line-strong: #d6d7cf;
+  --primary: #0e7c66;
+  --primary-hover: #0b6956;
+  --primary-ink: #ffffff;
+  --primary-soft: #e5f2ed;
+  --primary-soft-ink: #0a5c4b;
+  --focus: #0e7c66;
+
+  --ok: #1d6f47;
+  --ok-soft: #e7f3eb;
+  --ok-line: #bfdfcb;
+  --warn: #855400;
+  --warn-soft: #fbf1dc;
+  --warn-line: #efd7a3;
+  --out: #ad3f2b;
+  --out-soft: #fbebe6;
+  --out-line: #f1c7bb;
+  --crit: #9c1726;
+  --crit-soft: #f9e2e4;
+  --crit-line: #eab8be;
+  --info: #2b5a8a;
+  --info-soft: #e8eff7;
+
+  --shadow-color: 160 20% 12%;
+  --glow: 160 70% 40%;
+  --overlay: rgb(15 26 23 / 0.4);
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0b1210;
+  --surface: #111a17;
+  --surface-2: #17221e;
+  --surface-3: #1e2b26;
+  --ink: #ebefeb;
+  --ink-2: #b6c0bb;
+  --ink-3: #8f9a95;
+  --line: #22302b;
+  --line-strong: #2f3f39;
+  --primary: #3fbf9f;
+  --primary-hover: #5ccdb0;
+  --primary-ink: #04140f;
+  --primary-soft: #11302a;
+  --primary-soft-ink: #8fe0c9;
+  --focus: #5ccdb0;
+
+  --ok: #6fcf98;
+  --ok-soft: #12261b;
+  --ok-line: #1f4430;
+  --warn: #e8b84d;
+  --warn-soft: #2a2210;
+  --warn-line: #4a3b17;
+  --out: #f2937d;
+  --out-soft: #2e1a15;
+  --out-line: #553027;
+  --crit: #ff8590;
+  --crit-soft: #351519;
+  --crit-line: #5f262d;
+  --info: #8db8e6;
+  --info-soft: #14212e;
+
+  --shadow-color: 160 40% 2%;
+  --glow: 160 60% 45%;
+  --overlay: rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-ink: var(--primary-ink);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-soft-ink: var(--primary-soft-ink);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-ok-line: var(--ok-line);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-warn-line: var(--warn-line);
+  --color-out: var(--out);
+  --color-out-soft: var(--out-soft);
+  --color-out-line: var(--out-line);
+  --color-crit: var(--crit);
+  --color-crit-soft: var(--crit-soft);
+  --color-crit-line: var(--crit-line);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+
+  --font-sans: var(--font-geist), var(--font-noto-deva), var(--font-noto-mlym), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-instrument), var(--font-noto-deva), var(--font-noto-mlym), ui-serif, Georgia, serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  /* Type scale. "Larger text" bumps the root size, so everything scales together. */
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.4;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.5;
+  --text-body: 1rem;
+  --text-body--line-height: 1.6;
+  --text-lead: 1.125rem;
+  --text-lead--line-height: 1.6;
+  --text-h3: 1.0625rem;
+  --text-h3--line-height: 1.35;
+  --text-h3--letter-spacing: -0.01em;
+  --text-h2: 1.375rem;
+  --text-h2--line-height: 1.25;
+  --text-h2--letter-spacing: -0.02em;
+  --text-h1: 2rem;
+  --text-h1--line-height: 1.15;
+  --text-h1--letter-spacing: -0.025em;
+  --text-display: 2.75rem;
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.015em;
+  --text-display-lg: 4.25rem;
+  --text-display-lg--line-height: 1;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-value: 2.25rem;
+  --text-value--line-height: 1;
+  --text-value--letter-spacing: -0.035em;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+
+  --shadow-xs: 0 1px 2px hsl(var(--shadow-color) / 0.05);
+  --shadow-sm: 0 1px 2px hsl(var(--shadow-color) / 0.04), 0 2px 6px -2px hsl(var(--shadow-color) / 0.06);
+  --shadow-md: 0 1px 2px hsl(var(--shadow-color) / 0.04), 0 6px 16px -6px hsl(var(--shadow-color) / 0.1),
+    0 12px 32px -12px hsl(var(--shadow-color) / 0.08);
+  --shadow-lg: 0 2px 4px hsl(var(--shadow-color) / 0.04), 0 12px 32px -8px hsl(var(--shadow-color) / 0.14),
+    0 32px 64px -24px hsl(var(--shadow-color) / 0.16);
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+
+  --container-reading: 45rem;
+  --container-wide: 70rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    background: var(--bg);
+  }
+  html[data-text="large"] {
+    font-size: 112.5%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Indic scripts need taller lines so matras and conjuncts never clip. */
+  :lang(hi) body,
+  :lang(ml) body {
+    line-height: 1.75;
+  }
+  :lang(hi) :is(h1, h2, h3, h4, .font-display),
+  :lang(ml) :is(h1, h2, h3, h4, .font-display) {
+    line-height: 1.45;
+    letter-spacing: 0;
+  }
+  :lang(hi) .font-display,
+  :lang(ml) .font-display {
+    font-family: var(--font-sans);
+    font-weight: 600;
+  }
+  ::selection {
+    background: var(--primary-soft);
+    color: var(--primary-soft-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  summary {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  .glass {
+    background: color-mix(in oklab, var(--bg) 80%, transparent);
+    backdrop-filter: saturate(1.4) blur(14px);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  }
+  .ambient-glow {
+    background:
+      radial-gradient(55% 45% at 50% 0%, hsl(var(--glow) / 0.1), transparent 70%),
+      radial-gradient(35% 35% at 88% 8%, hsl(40 80% 60% / 0.06), transparent 70%);
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  .safe-bottom {
+    padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 0%, var(--surface-3) 50%, var(--surface-2) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s ease-in-out infinite;
+  border-radius: var(--radius-sm);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes sheet-in {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.98);
+  }
+}

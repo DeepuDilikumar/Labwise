@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Labwise — understand your lab report",
+    "description": "Upload a lab report or prescription and get a calm, plain-language explanation, questions to ask, and which kind of doctor to see."
+  },
+  "common": {
+    "continue": "Continue",
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "saved": "Saved",
+    "retry": "Try again",
+    "done": "Done",
+    "edit": "Edit",
+    "delete": "Delete",
+    "loading": "Loading…",
+    "optional": "Optional",
+    "skipToContent": "Skip to content",
+    "somethingWrong": "Something went wrong",
+    "somethingWrongBody": "That didn't work. Your data is safe — please try again.",
+    "offline": "You're offline",
+    "offlineBody": "Check your connection. Anything you've saved is still here."
+  },
+  "nav": {
+    "home": "Home",
+    "add": "Add report",
+    "trends": "Trends",
+    "settings": "Settings",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "privacy": "Privacy",
+    "help": "Help",
+    "pricing": "Pricing",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "menu": "Menu"
+  },
+  "status": {
+    "in_range": "In range",
+    "low": "Low",
+    "high": "High",
+    "slightly_low": "Slightly low",
+    "slightly_high": "Slightly high",
+    "critical_low": "Very low",
+    "critical_high": "Very high",
+    "no_range": "No range given",
+    "unparsed": "Couldn't read"
+  },
+  "gauge": {
+    "ariaBetween": "Your lab's range is {low} to {high} {unit}",
+    "ariaBelow": "Your lab's range is below {high} {unit}",
+    "ariaAbove": "Your lab's range is above {low} {unit}"
+  },
+  "marker": {
+    "yourLabRange": "Your lab's range: {range}",
+    "noRange": "No reference range found on your report.",
+    "labFlag": "Lab marked it “{flag}”",
+    "editedByYou": "Edited by you",
+    "whatItMeasures": "What this measures",
+    "reasonsHigh": "Common reasons it can be high",
+    "reasonsLow": "Common reasons it can be low",
+    "reasonsNote": "These are general reasons, not a diagnosis. Your doctor will look at the whole picture.",
+    "questions": "Questions to ask your doctor"
+  },
+  "upload": {
+    "dropTitle": "Add your report",
+    "dropBody": "A PDF, or clear photos of each page. Up to 10 pages.",
+    "takePhoto": "Take photo",
+    "chooseFile": "Choose file",
+    "limits": "PDF, JPG, PNG or HEIC · up to 20 MB"
+  },
+  "prefs": {
+    "language": "Language",
+    "region": "Region",
+    "regions": { "in": "India", "us": "United States" },
+    "theme": "Theme",
+    "themes": { "system": "System", "light": "Light", "dark": "Dark" },
+    "textSize": "Text size",
+    "textSizes": { "default": "Default", "large": "Larger" },
+    "units": "Units",
+    "unitSystems": { "conventional": "mg/dL", "si": "mmol/L (SI)" }
+  },
+  "trends": {
+    "bandNote": "Shaded band is your lab's range",
+    "noBand": "No range on these reports",
+    "viewLabel": "View as",
+    "chart": "Chart",
+    "table": "Table",
+    "date": "Date",
+    "value": "Value",
+    "status": "Status",
+    "aria": "{title} over {count} reports"
+  },
+  "disclaimer": {
+    "short": "Labwise explains reports. It doesn't diagnose or replace a doctor."
+  },
+  "auth": {
+    "title": "Sign in to Labwise",
+    "subtitle": "We'll send you a 6-digit code. No passwords.",
+    "phone": "Phone",
+    "email": "Email",
+    "phoneLabel": "Mobile number",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "sendCode": "Send code",
+    "codeLabel": "6-digit code",
+    "codeSentTo": "We sent a code to {target}.",
+    "verify": "Verify and continue",
+    "resend": "Send a new code",
+    "resendIn": "New code in {seconds}s",
+    "changeContact": "Change",
+    "devCode": "Local mode: your code is {code}",
+    "errors": {
+      "invalidPhone": "Please enter a valid mobile number.",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidCode": "That code didn't match. Please check and try again.",
+      "tooMany": "Too many attempts. Please wait a minute and try again.",
+      "sendFailed": "We couldn't send a code right now. Please try again."
+    },
+    "terms": "By continuing you agree to our <terms>Terms</terms> and <privacy>Privacy Policy</privacy>."
+  },
+  "design": {
+    "title": "Design system",
+    "subtitle": "Every component and state, in one place.",
+    "theme": "Theme"
+  }
+}
