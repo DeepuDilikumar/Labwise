@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Providers } from "@/components/providers";
@@ -45,10 +46,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       className={fontVariables}
       suppressHydrationWarning
     >
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-      </head>
       <body className="min-h-dvh">
+        <Script id="theme" strategy="beforeInteractive">{themeScript}</Script>
         <NextIntlClientProvider>
           <Providers>
             {children}

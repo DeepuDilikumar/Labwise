@@ -143,9 +143,9 @@ export function Hero() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="secondary" className="h-14 rounded-[16px] px-7 text-lead">
-              <a href="#try">
+              <Link href="/sample">
                 <Sparkles aria-hidden /> {t("ctaSecondary")}
-              </a>
+              </Link>
             </Button>
           </motion.div>
           <motion.ul

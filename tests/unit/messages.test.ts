@@ -6,7 +6,7 @@ import ml from "../../messages/ml.json";
 type Tree = { [k: string]: string | Tree };
 const keys = (o: Tree, p = ""): string[] =>
   Object.entries(o).flatMap(([k, v]) => (k.startsWith("_") ? [] : typeof v === "string" ? [p + k] : keys(v, `${p}${k}.`)));
-const placeholders = (s: string) => (s.match(/\{(\w+)/g) ?? []).sort().join(",");
+const placeholders = (s: string) => [...s.matchAll(/\{(\w+)\s*[,}]/g)].map((m) => m[1]).sort().join(",");
 const get = (o: Tree, path: string) => path.split(".").reduce<string | Tree | undefined>((a, k) => (a as Tree)?.[k], o);
 
 describe("translations", () => {

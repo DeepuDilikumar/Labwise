@@ -3,6 +3,9 @@ import { AlertTriangle, ArrowDown, ArrowUp, Check, Minus } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/cn";
 import { directionOf, type MarkerStatus, type Tone } from "@/lib/domain/status";
+import { statusLabelKey } from "@/lib/domain/status-label";
+
+export { statusLabelKey };
 
 export const toneClasses: Record<Tone, { pill: string; text: string; soft: string; dot: string; line: string }> = {
   ok: { pill: "bg-ok-soft text-ok border-ok-line", text: "text-ok", soft: "bg-ok-soft", dot: "bg-ok", line: "border-ok-line" },
@@ -12,10 +15,6 @@ export const toneClasses: Record<Tone, { pill: string; text: string; soft: strin
   neutral: { pill: "bg-surface-2 text-ink-2 border-line", text: "text-ink-2", soft: "bg-surface-2", dot: "bg-ink-3", line: "border-line" },
 };
 
-export function statusLabelKey(status: MarkerStatus, tone: Tone): string {
-  if (status === "low" || status === "high") return tone === "borderline" ? `slightly_${status}` : status;
-  return status;
-}
 
 interface Props {
   status: MarkerStatus;

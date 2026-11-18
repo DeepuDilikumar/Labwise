@@ -1,5 +1,6 @@
 "use client";
-import { BookOpen, HelpCircle, MessageCircleQuestion, PencilLine } from "lucide-react";
+import { BookOpen, ChevronDown, HelpCircle, MessageCircleQuestion, PencilLine } from "lucide-react";
+import * as React from "react";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/cn";
@@ -31,8 +32,34 @@ export interface MarkerCardData {
   };
 }
 
-export function MarkerCard({ data, index = 0, className }: { data: MarkerCardData; index?: number; className?: string }) {
+export function MarkerCard({ data, index = 0, className, compact = false }: { data: MarkerCardData; index?: number; className?: string; compact?: boolean }) {
   const t = useTranslations("marker");
+  const [open, setOpen] = React.useState(!compact);
+  if (!open) {
+    // Compact row for in-range results: calm, scannable, one tap to expand.
+    return (
+      <motion.button
+        type="button"
+        onClick={() => setOpen(true)}
+        initial={{ opacity: 0, y: 6 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.25, delay: Math.min(index, 6) * 0.03 }}
+        aria-expanded={false}
+        className={cn(
+          "flex w-full items-center gap-3 rounded-[var(--radius-lg)] border border-line bg-surface px-4 py-3.5 text-left transition-colors hover:bg-surface-2",
+          className,
+        )}
+      >
+        <span className="min-w-0 flex-1 font-medium leading-snug text-ink text-pretty">{data.name}</span>
+        <span className="shrink-0 text-small font-semibold tabular text-ink">
+          {data.valueLabel} <span className="font-normal text-ink-3">{data.unit}</span>
+        </span>
+        <StatusPill size="sm" status={data.status} tone={data.tone} />
+        <ChevronDown className="size-4 shrink-0 text-ink-3" aria-hidden />
+        <span className="sr-only">{t("showDetails")}</span>
+      </motion.button>
+    );
+  }
   const dir = directionOf(data.status);
   const hasGauge = data.value != null && (data.range.low != null || data.range.high != null);
 

@@ -295,7 +295,7 @@ async function main() {
         reportDate: def.date,
         patientAge: 34 + (i % 30),
         patientSex: i % 2 ? "male" : "female",
-        markers: markers.map(({ key: _k, ...m }) => m),
+        markers: markers.map(({ key, ...m }) => (void key, m)),
       },
       prescription: null,
     };
