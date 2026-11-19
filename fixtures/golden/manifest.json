@@ -1,5 +1,5 @@
 {
- "447a36b0d45c2d52e77f847d8a799f48ad031405ae648b179fc4898745f370cb": {
+ "248de62fdb6f6758841eff86a09a1bfaf3718aa84f89bff8826ce07fe5e2ed8e": {
   "id": "lab-in-01",
   "file": "lab-in-01.pdf",
   "contentType": "application/pdf",
@@ -287,7 +287,7 @@
    "prescription": null
   }
  },
- "f9510840df813711ef3b7aa807b3e60afcf0a35ac3099270231d89e8c7aa6cc9": {
+ "eadc9bacc1befc89595477bf0db4ade9516eef85e1c09c6a96c6812bed79539f": {
   "id": "lab-in-02",
   "file": "lab-in-02.pdf",
   "contentType": "application/pdf",
@@ -436,7 +436,7 @@
       "referenceRangeLow": 70,
       "referenceRangeHigh": 100,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Post Prandial Blood Sugar",
@@ -446,7 +446,7 @@
       "referenceRangeLow": 70,
       "referenceRangeHigh": 140,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "HbA1c (Glycated Haemoglobin)",
@@ -456,7 +456,7 @@
       "referenceRangeLow": 4,
       "referenceRangeHigh": 5.6,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Total Cholesterol",
@@ -466,7 +466,7 @@
       "referenceRangeLow": null,
       "referenceRangeHigh": 200,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "LDL Cholesterol (Calculated)",
@@ -476,7 +476,7 @@
       "referenceRangeLow": null,
       "referenceRangeHigh": 100,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "HDL Cholesterol (Direct)",
@@ -486,7 +486,7 @@
       "referenceRangeLow": 40,
       "referenceRangeHigh": 60,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Triglycerides",
@@ -496,14 +496,14 @@
       "referenceRangeLow": null,
       "referenceRangeHigh": 150,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      }
     ]
    },
    "prescription": null
   }
  },
- "a38e421c11b9ad73c577fd6a3ddc4d2a7170c87c4b97ea40b23f5b3365495797": {
+ "2560f56e5cb7ab034306371657ecec780cd06a674f8b5b5ef2727e2e1bcf1049": {
   "id": "lab-in-04",
   "file": "lab-in-04.pdf",
   "contentType": "application/pdf",
@@ -571,7 +571,7 @@
    "prescription": null
   }
  },
- "66c201c97054159b74499658626bdeebcb92c05095e7693f0bc3a5d3d253996e": {
+ "4900522e92957429ce139bd73b123e8e7e71c98ef6f387d3ca99597cdd0aeb3a": {
   "id": "lab-in-05",
   "file": "lab-in-05.pdf",
   "contentType": "application/pdf",
@@ -690,7 +690,7 @@
       "referenceRangeLow": 12,
       "referenceRangeHigh": 15.5,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Total RBC Count",
@@ -700,7 +700,7 @@
       "referenceRangeLow": 4,
       "referenceRangeHigh": 5.2,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "PCV",
@@ -710,7 +710,7 @@
       "referenceRangeLow": 36,
       "referenceRangeHigh": 46,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "MCV",
@@ -720,7 +720,7 @@
       "referenceRangeLow": 80,
       "referenceRangeHigh": 100,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Total Leucocyte Count",
@@ -730,7 +730,7 @@
       "referenceRangeLow": 4,
       "referenceRangeHigh": 11,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Platelet Count",
@@ -740,7 +740,7 @@
       "referenceRangeLow": 1.5,
       "referenceRangeHigh": 4.1,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Fasting Blood Sugar",
@@ -750,7 +750,7 @@
       "referenceRangeLow": 70,
       "referenceRangeHigh": 100,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Post Prandial Blood Sugar",
@@ -760,7 +760,7 @@
       "referenceRangeLow": 70,
       "referenceRangeHigh": 140,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "HbA1c (Glycated Haemoglobin)",
@@ -770,7 +770,7 @@
       "referenceRangeLow": 4,
       "referenceRangeHigh": 5.6,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Serum Creatinine",
@@ -780,7 +780,7 @@
       "referenceRangeLow": 0.6,
       "referenceRangeHigh": 1.1,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Blood Urea",
@@ -790,7 +790,7 @@
       "referenceRangeLow": 15,
       "referenceRangeHigh": 40,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "eGFR (CKD-EPI)",
@@ -800,7 +800,7 @@
       "referenceRangeLow": 90,
       "referenceRangeHigh": 200,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Serum Uric Acid",
@@ -810,14 +810,14 @@
       "referenceRangeLow": 2.6,
       "referenceRangeHigh": 6,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      }
     ]
    },
    "prescription": null
   }
  },
- "bb6421ea056996bf4cb41ed42524a6417de365c63d2d52de1d818c592dc36542": {
+ "59e12a75249253662cd75e3babff3ffa67d2224b1256196a0d12cfcea3bedbe9": {
   "id": "lab-in-07",
   "file": "lab-in-07.pdf",
   "contentType": "application/pdf",
@@ -915,7 +915,7 @@
    "prescription": null
   }
  },
- "96f63204833b936581a560cc8c712ca4b5cd47e971880a1d802b2565b1dfb963": {
+ "b4322b49f3864b9962c74cb4ed7366f48c115822f40a4bf97db0cf5e700d0277": {
   "id": "lab-in-08",
   "file": "lab-in-08.pdf",
   "contentType": "application/pdf",
@@ -1043,7 +1043,7 @@
    "prescription": null
   }
  },
- "1b73853a230188f097ce83622f0c2661fed3f38d6576b9276c881eafe51e623c": {
+ "d0ae4a3c9fbc4ae08045c2e649be144a09a1267e1ffba98caed9615470e8f561": {
   "id": "lab-us-01",
   "file": "lab-us-01.pdf",
   "contentType": "application/pdf",
@@ -1231,7 +1231,7 @@
    "prescription": null
   }
  },
- "b84a031fd1410ecd20181fcf9d08b49c700b9074c810a49e77c8cbbed943e014": {
+ "c09797d523e03abfb208af9efad73a792f1dcf05600c0e852ff51ffb9d0fc822": {
   "id": "lab-us-02",
   "file": "lab-us-02.pdf",
   "contentType": "application/pdf",
@@ -1370,7 +1370,7 @@
       "referenceRangeLow": 12,
       "referenceRangeHigh": 15.5,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "RBC",
@@ -1380,7 +1380,7 @@
       "referenceRangeLow": 4,
       "referenceRangeHigh": 5.2,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Hematocrit",
@@ -1390,7 +1390,7 @@
       "referenceRangeLow": 36,
       "referenceRangeHigh": 46,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "MCV",
@@ -1400,7 +1400,7 @@
       "referenceRangeLow": 80,
       "referenceRangeHigh": 100,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "WBC",
@@ -1410,7 +1410,7 @@
       "referenceRangeLow": 4,
       "referenceRangeHigh": 11,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Platelets",
@@ -1420,7 +1420,7 @@
       "referenceRangeLow": 150,
       "referenceRangeHigh": 410,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Sodium",
@@ -1430,7 +1430,7 @@
       "referenceRangeLow": 135,
       "referenceRangeHigh": 145,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Potassium",
@@ -1440,7 +1440,7 @@
       "referenceRangeLow": 3.5,
       "referenceRangeHigh": 5.1,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Calcium",
@@ -1450,7 +1450,7 @@
       "referenceRangeLow": 8.6,
       "referenceRangeHigh": 10.3,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "C-Reactive Protein",
@@ -1460,14 +1460,14 @@
       "referenceRangeLow": null,
       "referenceRangeHigh": 5,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      }
     ]
    },
    "prescription": null
   }
  },
- "d5b81cdeecb0cce2b755bf674883c7c7cdb7a81bd49d06a357ae7dc09e7c1c14": {
+ "e4e21ff09f3c68f09e1daa5e44272ad167ce88cd337523f7f3f43889fade45c8": {
   "id": "lab-us-04",
   "file": "lab-us-04.pdf",
   "contentType": "application/pdf",
@@ -1645,7 +1645,7 @@
    "prescription": null
   }
  },
- "60d60ce78426de48dfbb8868fbd15ff5c6255dd275650d80783f3eb76a61c6d8": {
+ "c65ec9f3b65d401bc26d0bea47704a3f063da28cb3a9f4ecf12d824017f16283": {
   "id": "lab-si-01",
   "file": "lab-si-01.pdf",
   "contentType": "application/pdf",
@@ -1773,7 +1773,7 @@
    "prescription": null
   }
  },
- "8986c32dfe1cab669eb5ddd550b72ba1d2bdb243fb3dfa39e6ea884a5893d790": {
+ "1cf985effbc565a24dc7124aaedb5e882dc01bce16d384440bad4122e64960a5": {
   "id": "lab-si-02",
   "file": "lab-si-02.pdf",
   "contentType": "application/pdf",
@@ -1942,7 +1942,7 @@
       "referenceRangeLow": 135,
       "referenceRangeHigh": 145,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Potassium",
@@ -1952,7 +1952,7 @@
       "referenceRangeLow": 3.5,
       "referenceRangeHigh": 5.1,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Calcium",
@@ -1962,7 +1962,7 @@
       "referenceRangeLow": 2.15,
       "referenceRangeHigh": 2.57,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "C-Reactive Protein",
@@ -1972,7 +1972,7 @@
       "referenceRangeLow": null,
       "referenceRangeHigh": 5,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Vitamin D, 25-Hydroxy",
@@ -1982,7 +1982,7 @@
       "referenceRangeLow": 75,
       "referenceRangeHigh": 250,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Vitamin B12",
@@ -1992,7 +1992,7 @@
       "referenceRangeLow": 148,
       "referenceRangeHigh": 664,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Ferritin",
@@ -2002,7 +2002,7 @@
       "referenceRangeLow": 15,
       "referenceRangeHigh": 150,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "Creatinine",
@@ -2012,7 +2012,7 @@
       "referenceRangeLow": 53,
       "referenceRangeHigh": 97,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "BUN",
@@ -2022,7 +2022,7 @@
       "referenceRangeLow": 2.5,
       "referenceRangeHigh": 6.7,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      },
      {
       "marker": "eGFR",
@@ -2032,7 +2032,7 @@
       "referenceRangeLow": 90,
       "referenceRangeHigh": 200,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.7
      },
      {
       "marker": "Uric Acid",
@@ -2042,14 +2042,14 @@
       "referenceRangeLow": 155,
       "referenceRangeHigh": 357,
       "labFlag": null,
-      "confidence": 0.86
+      "confidence": 0.88
      }
     ]
    },
    "prescription": null
   }
  },
- "a95fb16416bade097df718871ce5c9e646aeabcbe03626eb3b51daae7538c048": {
+ "aaa44bc31246bc7a17ec8bf2b2a7b1b9b12995d36fdd6d53561adef6dcb23e54": {
   "id": "lab-si-04",
   "file": "lab-si-04.pdf",
   "contentType": "application/pdf",
@@ -2137,7 +2137,7 @@
    "prescription": null
   }
  },
- "646f02cca3a36484c9a61d3edc32fd9736ed787f27d618172912d5717454d4d6": {
+ "4babab4ab057dc5bb7b173950f2269206e0d919775c2423ad9cfc0f02f3ae429": {
   "id": "hist-in-01",
   "file": "hist-in-01.pdf",
   "contentType": "application/pdf",
@@ -2255,7 +2255,7 @@
    "prescription": null
   }
  },
- "dbed9264b95150928e697df5272adb5952f9b078ba65fe2becd6c6d4f3ad46af": {
+ "599170c22adfd5aca097c3ab8331446ca36d657de7895e9710bd57924bd1fa83": {
   "id": "hist-in-02",
   "file": "hist-in-02.pdf",
   "contentType": "application/pdf",
@@ -2373,7 +2373,7 @@
    "prescription": null
   }
  },
- "ceed5b208838ba1997309fc60f22dcd95c862dd3cf439ad9a283e6ed389f4566": {
+ "40ce319619dfae70bc848eb9f2d596fe6f2c30be2cccaa4af8853aa06c4c8dd2": {
   "id": "rx-in-01",
   "file": "rx-in-01.pdf",
   "contentType": "application/pdf",
@@ -2416,7 +2416,7 @@
    }
   }
  },
- "4a8167b7cb44e67ce8d877c07b51efcfaf59dc39327f10591d6fd2373ca74ef0": {
+ "ae3c5c289030c611477206588cff6e85548c5680cf213e940d06d416c0678141": {
   "id": "rx-in-02",
   "file": "rx-in-02.pdf",
   "contentType": "application/pdf",
@@ -2493,7 +2493,7 @@
    }
   }
  },
- "15f8b347fdb511465b3bd65796dbfbfd8126489d6c2d6515ae4453b0ce9895ae": {
+ "674332d65732a9d4b6a581e06bf43973790a36a84f03375060e52f040e8aeaab": {
   "id": "rx-in-04",
   "file": "rx-in-04.pdf",
   "contentType": "application/pdf",
@@ -2527,7 +2527,7 @@
    }
   }
  },
- "e8bdde74738f35e6d458d54bd72580dd0e7a3e886629e939ab13fc267b048cc3": {
+ "bc8f55abe433bc164226c6b953b1c126330d5bbacd60d613fcf7c71ccbee82c9": {
   "id": "rx-us-01",
   "file": "rx-us-01.pdf",
   "contentType": "application/pdf",
@@ -2561,7 +2561,7 @@
    }
   }
  },
- "5a1b2785fce62bd22eee881bb02a0c35628ea79cf7cfaf876702da61d4147fdb": {
+ "81ea719e4517ff227c1910f3d1f0acabd7d6a4eb2cddd9c6dc002e80a7064319": {
   "id": "rx-us-02",
   "file": "rx-us-02.pdf",
   "contentType": "application/pdf",
@@ -2629,7 +2629,7 @@
    }
   }
  },
- "f8fc022866d01814eb6c4b60bda06d0b046c426327c9bbaf0bf16b87a918a3b9": {
+ "59bd27085898897bfe1943be4bdb391415ebfd322d85353d1ed4fa331f9965f2": {
   "id": "rx-us-04",
   "file": "rx-us-04.pdf",
   "contentType": "application/pdf",
@@ -2661,6 +2661,17 @@
      }
     ]
    }
+  }
+ },
+ "dd92769c03a07b26dfb81fa43ae41f575295829767ab512ba596eed9f81ec73c": {
+  "id": "other-01",
+  "file": "other-01.jpg",
+  "contentType": "image/jpeg",
+  "kind": "other",
+  "truth": {
+   "kind": "other",
+   "lab": null,
+   "prescription": null
   }
  }
 }

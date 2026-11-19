@@ -16,7 +16,8 @@
     "check": "pnpm typecheck && pnpm lint && pnpm test",
     "fixtures": "tsx scripts/fixtures/generate.ts",
     "content": "python3 scripts/content/markers.py",
-    "review-list": "python3 scripts/content/review_list.py"
+    "review-list": "python3 scripts/content/review_list.py",
+    "walkthrough": "tsx scripts/walkthrough.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.10.0",

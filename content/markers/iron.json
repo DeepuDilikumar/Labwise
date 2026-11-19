@@ -46,6 +46,6 @@
   ],
   "critical": null,
   "decimals": 0,
-  "siDecimals": 0,
+  "siDecimals": 1,
   "reviewedByDoctor": false
 }

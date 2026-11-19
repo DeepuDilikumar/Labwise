@@ -7,6 +7,15 @@ const MAX_EDGE = 2200;
  * downscaled to ~2200px and re-encoded as JPEG (smaller uploads, and EXIF/GPS metadata is
  * stripped as a side effect). PDFs pass through untouched.
  */
+/** True if a JPEG carries an EXIF block (camera data, often GPS location) that we should strip. */
+async function hasExif(file: File) {
+  const head = new Uint8Array(await file.slice(0, 64 * 1024).arrayBuffer());
+  for (let i = 2; i + 10 < head.length; i++) {
+    if (head[i] === 0xff && head[i + 1] === 0xe1 && String.fromCharCode(...head.slice(i + 4, i + 8)) === "Exif") return true;
+  }
+  return false;
+}
+
 export async function prepareFile(file: File): Promise<{ file: File } | { error: string }> {
   if (file.type === "application/pdf") return file.size > MAX_BYTES ? { error: "too_large" } : { file };
   if (!file.type.startsWith("image/") && !/\.(heic|heif)$/i.test(file.name)) return { error: "bad_type" };
@@ -15,6 +24,12 @@ export async function prepareFile(file: File): Promise<{ file: File } | { error:
     bitmap = await createImageBitmap(file, { imageOrientation: "from-image" });
   } catch {
     return { error: /heic|heif/i.test(file.type + file.name) ? "heic" : "bad_type" };
+  }
+  // Already small, metadata-free JPEG/PNG: upload as-is (no quality loss, nothing to strip).
+  const small = Math.max(bitmap.width, bitmap.height) <= MAX_EDGE && file.size <= 4 * 1024 * 1024;
+  if (small && (file.type === "image/png" || (file.type === "image/jpeg" && !(await hasExif(file))))) {
+    bitmap.close();
+    return { file };
   }
   const scale = Math.min(1, MAX_EDGE / Math.max(bitmap.width, bitmap.height));
   const canvas = document.createElement("canvas");

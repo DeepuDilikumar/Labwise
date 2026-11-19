@@ -31,7 +31,7 @@ export function StatusPill({ status, tone, size = "md", className }: Props) {
   return (
     <span
       className={cn(
-        "inline-flex shrink-0 items-center gap-1 rounded-full border font-medium",
+        "inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border font-medium",
         size === "sm" ? "h-6 px-2 text-caption" : "h-7 px-2.5 text-small",
         toneClasses[tone].pill,
         className,

@@ -33,7 +33,7 @@ export function ErrorState({ title, body, action, className, offline }: StatePro
       </div>
       <h3 className="text-h3 font-semibold text-ink text-balance">{title}</h3>
       {body && <p className="mt-1.5 max-w-sm text-small text-ink-3 text-pretty">{body}</p>}
-      {action && <div className="mt-6 flex gap-2">{action}</div>}
+      {action && <div className="mt-6 flex flex-wrap justify-center gap-2">{action}</div>}
     </div>
   );
 }

@@ -32,12 +32,12 @@ export async function RxView({ view, meta, header, actions }: { view: RxViewMode
               <div className="min-w-0 flex-1">
                 <h2 className="text-h3 font-semibold text-ink">{i.written}</h2>
                 {i.brandNote && <p className="text-small text-ink-3">{i.brandNote}</p>}
+                {i.confirmWithPharmacist && (
+                  <span className="mt-2 inline-flex items-center gap-1 rounded-full border border-warn-line bg-warn-soft px-2.5 py-1 text-caption font-medium text-warn">
+                    <ShieldAlert className="size-3.5" aria-hidden /> {t("confirmBadge")}
+                  </span>
+                )}
               </div>
-              {i.confirmWithPharmacist && (
-                <span className="inline-flex shrink-0 items-center gap-1 rounded-full border border-warn-line bg-warn-soft px-2.5 py-1 text-caption font-medium text-warn">
-                  <ShieldAlert className="size-3.5" aria-hidden /> {t("confirmBadge")}
-                </span>
-              )}
             </div>
 
             <h3 className="mt-5 text-caption font-semibold uppercase tracking-[0.06em] text-ink-3">{t("asWritten")}</h3>

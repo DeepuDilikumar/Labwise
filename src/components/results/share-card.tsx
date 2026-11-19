@@ -28,7 +28,7 @@ export const ShareCard = React.forwardRef<HTMLDivElement, { data: ShareCardData 
   return (
     <div
       ref={ref}
-      style={{ width: 1080, height: 1350, background: "#fafaf7", color: "#0f1a17", fontFamily: "var(--font-sans)", position: "relative", overflow: "hidden", padding: 80, boxSizing: "border-box" }}
+      style={{ width: 1080, height: 1350, background: "#fafaf7", color: "#0f1a17", fontFamily: "var(--font-sans)", position: "relative", overflow: "hidden", padding: 80, boxSizing: "border-box", display: "flex", flexDirection: "column" }}
     >
       <div style={{ position: "absolute", top: -220, right: -180, width: 720, height: 720, borderRadius: 9999, background: "radial-gradient(circle, rgba(14,124,102,0.18), transparent 65%)" }} />
       <div style={{ position: "absolute", bottom: -260, left: -200, width: 760, height: 760, borderRadius: 9999, background: "radial-gradient(circle, rgba(255,160,110,0.16), transparent 65%)" }} />
@@ -42,7 +42,7 @@ export const ShareCard = React.forwardRef<HTMLDivElement, { data: ShareCardData 
         <span style={{ fontSize: 36, fontWeight: 600, letterSpacing: "-0.02em" }}>Labwise</span>
       </div>
       <p style={{ position: "relative", marginTop: 64, fontSize: 26, fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", color: "#0e7c66" }}>{data.eyebrow}</p>
-      <h1 style={{ position: "relative", marginTop: 14, fontFamily: "var(--font-display)", fontSize: 88, lineHeight: 1.05, fontWeight: 400 }}>{data.headline}</h1>
+      <h1 style={{ position: "relative", marginTop: 14, fontFamily: "var(--font-display)", fontSize: 76, lineHeight: 1.05, fontWeight: 400 }}>{data.headline}</h1>
       <p style={{ position: "relative", marginTop: 18, fontSize: 28, color: "#5f6b67" }}>{data.meta}</p>
       <div style={{ position: "relative", marginTop: 48, display: "flex", gap: 20 }}>
         {data.counts.map((c) => (
@@ -70,7 +70,8 @@ export const ShareCard = React.forwardRef<HTMLDivElement, { data: ShareCardData 
         })}
         {data.moreLabel && <p style={{ fontSize: 24, color: "#5f6b67", paddingLeft: 8 }}>{data.moreLabel}</p>}
       </div>
-      <div style={{ position: "absolute", left: 80, right: 80, bottom: 70 }}>
+      {/* Footer sits in the flow (not absolutely positioned) so it can never overlap the list. */}
+      <div style={{ position: "relative", marginTop: "auto", paddingTop: 28 }}>
         <p style={{ fontSize: 24, color: "#3d4945", lineHeight: 1.45 }}>{data.disclaimer}</p>
         <p style={{ marginTop: 14, fontSize: 22, color: "#5f6b67" }}>{data.watermark}</p>
       </div>

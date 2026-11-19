@@ -104,3 +104,10 @@ describe("unit conversions", () => {
     expect(resolveUnit(m("glucose_fasting"), "g/L")).toBeNull();
   });
 });
+
+describe("display precision", () => {
+  it("shows mmol/L glucose with a decimal (6.0, not 6)", () => {
+    expect(markerById("glucose_fasting")!.siDecimals).toBe(1);
+    expect(markerById("urea")!.siDecimals).toBe(1);
+  });
+});

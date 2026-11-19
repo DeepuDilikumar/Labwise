@@ -138,7 +138,8 @@ function buildLab(def: LabDef) {
         referenceRangeLow: noRange ? null : low,
         referenceRangeHigh: noRange ? null : high,
         labFlag: flag,
-        confidence: def.photo ? 0.86 : 0.97,
+        // Photos: every 4th row is "hard to read" so the review screen gets exercised.
+        confidence: def.photo ? (markers.length % 4 === 1 ? 0.7 : 0.88) : 0.97,
       });
     }
   return markers;
@@ -322,6 +323,20 @@ async function main() {
       manifest[h] = { id: def.id, file: path.basename(f.file), contentType: f.type, kind: "prescription", truth };
     }
     console.log("rx", def.id);
+  }
+  {
+    const html = `<!doctype html><html><body style="font-family:Courier,monospace;padding:40px;width:520px;background:#fff">
+      <h2 style="text-align:center;margin:0">SAMPLE PHARMACY (SYNTHETIC)</h2><p style="text-align:center">Tax invoice · not a lab report</p>
+      <hr/>${[["Paracetamol 500 strip", "30.00"], ["Cough syrup 100 ml", "95.00"], ["Bandage roll", "40.00"], ["Hand sanitiser", "60.00"]]
+        .map(([a, b]) => `<div style="display:flex;justify-content:space-between"><span>${a}</span><span>${b}</span></div>`)
+        .join("")}<hr/><div style="display:flex;justify-content:space-between;font-weight:bold"><span>TOTAL</span><span>225.00</span></div>
+      <p style="text-align:center;margin-top:30px">Thank you! Generated synthetic fixture other-01</p></body></html>`;
+    const files = await render(page, html, path.join(OUT, "other-01"), true, 999);
+    for (const f of files) {
+      const h = sha(await readFile(f.file));
+      manifest[h] = { id: "other-01", file: path.basename(f.file), contentType: f.type, kind: "other" as never, truth: { kind: "other", lab: null, prescription: null } };
+    }
+    console.log("other other-01");
   }
   await writeFile(path.join(OUT, "manifest.json"), JSON.stringify(manifest, null, 1) + "\n");
   await browser.close();

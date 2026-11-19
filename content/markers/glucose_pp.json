@@ -53,6 +53,6 @@
     "above": 400.0
   },
   "decimals": 0,
-  "siDecimals": 0,
+  "siDecimals": 1,
   "reviewedByDoctor": false
 }

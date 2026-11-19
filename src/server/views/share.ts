@@ -12,7 +12,7 @@ export async function labShareCard(view: LabView, meta: string): Promise<ShareCa
   const tr = await getTranslations("results");
   const all = view.groups.flatMap((g) => g.markers);
   const discuss = all.filter((m) => m.tone !== "ok" && m.tone !== "neutral");
-  const items = (discuss.length ? discuss : all).slice(0, 5);
+  const items = (discuss.length ? discuss : all).slice(0, 4);
   const rest = (discuss.length ? discuss.length : all.length) - items.length;
   return {
     eyebrow: tr("bigPicture"),
@@ -40,14 +40,14 @@ export async function rxShareCard(view: RxView, meta: string): Promise<ShareCard
     headline: tr("title", { count: view.items.length }),
     meta,
     counts: [],
-    items: view.items.slice(0, 6).map((i) => ({
+    items: view.items.slice(0, 4).map((i) => ({
       name: i.written,
       value: i.howToTake.find((h) => h.label)?.value ?? "",
       status: i.generic ?? tr("asWrittenShort"),
       tone: "neutral",
       dir: null,
     })),
-    moreLabel: view.items.length > 6 ? t("more", { count: view.items.length - 6 }) : null,
+    moreLabel: view.items.length > 4 ? t("more", { count: view.items.length - 4 }) : null,
     disclaimer: `${tr("followDoctor")} ${t("disclaimer")}`,
     watermark: t("watermark"),
   };

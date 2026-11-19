@@ -49,3 +49,4 @@ scripts/.*.mjs
 .data-e2e/
 .data-test/
 /eval-results/
+.data-walkthrough/

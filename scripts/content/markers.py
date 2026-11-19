@@ -97,18 +97,18 @@ m("glucose_fasting","Fasting blood sugar","blood_sugar","mg/dL","mmol/L",GL,
   ["Eating or drinking something sweet before the test","Stress or a recent illness","Some medicines, such as steroids","How your body is handling sugar over time"],
   ["Fasting for a long time","Some diabetes medicines","Intense exercise before the test"],
   ["What does this fasting sugar mean for me?","Should we check my HbA1c too?"],
-  critical={"below":54.0,"above":400.0}, decimals=0)
+  critical={"below":54.0,"above":400.0}, decimals=0, siDecimals=1)
 m("glucose_pp","Blood sugar after a meal (PP)","blood_sugar","mg/dL","mmol/L",GL,
   ["post prandial blood sugar","ppbs","pp blood sugar","glucose post prandial","post-prandial glucose","glucose (pp)","2 hr post prandial glucose","postprandial glucose","glucose pp"],
   "This measures blood sugar about two hours after a meal, to see how your body handles sugar from food.",
   ["A large or sugary meal before the test","Stress or illness","How your body is handling sugar over time"],
   ["A very small meal","Some diabetes medicines"],
-  ["How does my after-meal sugar compare with my fasting sugar?"], critical={"below":54.0,"above":400.0}, decimals=0)
+  ["How does my after-meal sugar compare with my fasting sugar?"], critical={"below":54.0,"above":400.0}, decimals=0, siDecimals=1)
 m("glucose_random","Random blood sugar","blood_sugar","mg/dL","mmol/L",GL,
   ["random blood sugar","rbs","random glucose","glucose random","glucose (random)","glucose","blood glucose","plasma glucose"],
   "This measures blood sugar at any time of day, whether or not you have eaten.",
   ["Eating shortly before the test","Stress or illness","Some medicines"],["Not eating for a long time","Some diabetes medicines"],
-  ["Should I have a fasting sugar or HbA1c test as well?"], critical={"below":54.0,"above":400.0}, decimals=0)
+  ["Should I have a fasting sugar or HbA1c test as well?"], critical={"below":54.0,"above":400.0}, decimals=0, siDecimals=1)
 m("hba1c","HbA1c","blood_sugar","%","mmol/mol",
   [U("%",["percent","% of total hb","%hb"]), U("mmol/mol",["mmol/mol"],0.09148,2.152)],
   ["hba1c","glycated haemoglobin","glycated hemoglobin","glycosylated haemoglobin","glycosylated hemoglobin","a1c","hemoglobin a1c","haemoglobin a1c","hba1c (glycated haemoglobin)"],
@@ -160,12 +160,12 @@ m("urea","Urea","kidney","mg/dL","mmol/L",[U("mg/dL",["mg/dl","mg %"]), U("mmol/
   ["urea","blood urea","serum urea","s. urea","urea, serum"],
   "Urea is a waste product made when the body breaks down protein. The kidneys remove it from the blood.",
   ["Not drinking enough fluids","A high-protein diet","Some medicines"],["Low-protein diet","Liver changes","Pregnancy"],
-  ["Is my urea result linked to how much water I drink?"], decimals=0)
+  ["Is my urea result linked to how much water I drink?"], decimals=0, siDecimals=1)
 m("bun","Blood urea nitrogen (BUN)","kidney","mg/dL","mmol/L",[U("mg/dL",["mg/dl"]), U("mmol/L",["mmol/l"],2.801)],
   ["bun","blood urea nitrogen","urea nitrogen","bun (blood urea nitrogen)"],
   "BUN measures the nitrogen from urea in your blood. The kidneys remove urea, so it helps show how they are working.",
   ["Not drinking enough fluids","A high-protein diet","Some medicines"],["Low-protein diet","Liver changes"],
-  ["How does my BUN fit with my creatinine?"], decimals=0)
+  ["How does my BUN fit with my creatinine?"], decimals=0, siDecimals=1)
 m("egfr","eGFR","kidney","mL/min/1.73m²","mL/min/1.73m²",[U("mL/min/1.73m²",["ml/min/1.73m2","ml/min/1.73 m2","ml/min/1.73m²","ml/min","ml/min/1.73 sq m"])],
   ["egfr","estimated gfr","estimated glomerular filtration rate","gfr","egfr (ckd-epi)"],
   "eGFR is an estimate of how well your kidneys filter blood, worked out from your creatinine, age and sometimes sex.",
@@ -262,7 +262,7 @@ m("iron","Serum iron","iron","µg/dL","µmol/L",[U("µg/dL",["ug/dl","µg/dl","m
   ["iron","serum iron","s. iron","iron, serum","fe"],
   "Serum iron measures the iron circulating in your blood. It can change a lot during the day and after meals.",
   ["Iron supplements or a recent iron-rich meal"],["Low iron intake","Blood loss, including heavy periods","Recent illness or inflammation"],
-  ["How does my iron fit with my ferritin?"], decimals=0)
+  ["How does my iron fit with my ferritin?"], decimals=0, siDecimals=1)
 m("ferritin","Ferritin","iron","ng/mL","µg/L",[U("ng/mL",["ng/ml"]), U("µg/L",["ug/l","µg/l"])],
   ["ferritin","serum ferritin","s. ferritin"],
   "Ferritin shows how much iron your body has stored.",
@@ -271,7 +271,7 @@ m("ferritin","Ferritin","iron","ng/mL","µg/L",[U("ng/mL",["ng/ml"]), U("µg/L",
 m("tibc","TIBC","iron","µg/dL","µmol/L",[U("µg/dL",["ug/dl","µg/dl","mcg/dl"]), U("µmol/L",["umol/l","µmol/l"],5.585)],
   ["tibc","total iron binding capacity"],
   "TIBC shows how much iron your blood is able to carry. It often rises when iron stores are low.",
-  ["Low iron stores","Pregnancy"],["Inflammation","Liver changes"],["What does my TIBC add to the picture?"], decimals=0)
+  ["Low iron stores","Pregnancy"],["Inflammation","Liver changes"],["What does my TIBC add to the picture?"], decimals=0, siDecimals=1)
 m("transferrin_sat","Transferrin saturation","iron","%","%",[U("%",["percent"])],
   ["transferrin saturation","tsat","iron saturation","% saturation","percent saturation"],
   "Transferrin saturation shows how much of your blood's iron-carrying capacity is being used.",

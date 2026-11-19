@@ -6,6 +6,24 @@ Lab reports and prescriptions, explained calmly in plain language — plus which
 Launch market India (English, Hindi, Malayalam); region is runtime configuration so the US is configuration plus
 content. Working name — not trademark-checked.
 
+## Screenshots
+
+**👉 Full visual walkthrough of every screen and state: [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md)** (72 screenshots: landing, sign-in, onboarding, upload, review, results, urgent results, prescriptions, payments, errors, trends, privacy, dark mode, Hindi and Malayalam). All data shown is synthetic.
+
+<p align="center"><img src="docs/screenshots/01-landing-hero-desktop.jpg" width="900" alt="Landing page"></p>
+
+<table><tr>
+<td align="center"><img src="docs/screenshots/40-results-big-picture.jpg" width="200" alt="Results"><br><sub>Results</sub></td>
+<td align="center"><img src="docs/screenshots/42-results-expanded-explanations.jpg" width="200" alt="Explanations"><br><sub>Plain-language explanations</sub></td>
+<td align="center"><img src="docs/screenshots/63-results-urgent-banner.jpg" width="200" alt="Urgent result"><br><sub>Calm urgency banner</sub></td>
+<td align="center"><img src="docs/screenshots/65-prescription-pharmacist-badge.jpg" width="200" alt="Prescription"><br><sub>Prescriptions</sub></td>
+</tr><tr>
+<td align="center"><img src="docs/screenshots/36-review-needs-confirmation.jpg" width="200" alt="Review"><br><sub>Confirm unclear values</sub></td>
+<td align="center"><img src="docs/screenshots/76-trends-mobile.jpg" width="200" alt="Trends"><br><sub>Trends</sub></td>
+<td align="center"><img src="docs/screenshots/51-results-hindi.jpg" width="200" alt="Hindi"><br><sub>Hindi</sub></td>
+<td align="center"><img src="docs/screenshots/49-results-dark.jpg" width="200" alt="Dark mode"><br><sub>Dark mode</sub></td>
+</tr></table>
+
 ## Quick start (no keys needed)
 
 ```bash
@@ -42,6 +60,7 @@ Try it:
 | `pnpm content` | Regenerate `content/markers/*.json` from `scripts/content/markers.py` |
 | `pnpm review-list` | Regenerate `docs/CLINICAL_REVIEW.md` |
 | `pnpm screens /route …` | Screenshots at 390/768/1280 into `screens/` |
+| `pnpm walkthrough` | Regenerate `docs/screenshots/` for the walkthrough (needs a running server, see the walkthrough doc) |
 
 ## Cloud setup
 
@@ -83,7 +102,7 @@ src/server/         DB (asUser/asService with RLS), auth, AI providers, pipeline
 src/components/     ui/ (design system), landing/, results/, app/
 src/app/            Routes (landing, sample, onboarding, (app)/…, print, api)
 tests/              unit, integration (RLS, pipeline, payments, trends), guardrails, e2e
-docs/               DECISIONS, LAUNCH_CHECKLIST, CLINICAL_REVIEW
+docs/               WALKTHROUGH (+ screenshots/), DECISIONS, LAUNCH_CHECKLIST, CLINICAL_REVIEW
 ```
 
 ## Status

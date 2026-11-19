@@ -18,6 +18,7 @@ Data: Postgres with RLS — Supabase in cloud, **PGlite** locally running the *s
 - `pnpm screens /route … [--theme=dark] [--locale=hi] [--widths=390,768,1280]` → `screens/` (gitignored)
 - `pnpm eval` — golden-set extraction/guardrail eval (Anthropic if `ANTHROPIC_API_KEY`, else fixtures)
 - `pnpm fixtures` — regenerate synthetic golden set; `pnpm content` — regenerate marker JSON; `pnpm review-list`
+- `pnpm walkthrough` — regenerate docs/screenshots (run against a local-mode prod server; see docs/WALKTHROUGH.md). Re-run after UI changes.
 - E2E builds and starts prod on :3100 (`reuseExistingServer: false`). If a run looks stale, `fuser -k 3100/tcp`.
 
 ## Architecture
