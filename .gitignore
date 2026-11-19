@@ -46,3 +46,6 @@ next-env.d.ts
 /screens/
 !.env.example
 scripts/.*.mjs
+.data-e2e/
+.data-test/
+/eval-results/

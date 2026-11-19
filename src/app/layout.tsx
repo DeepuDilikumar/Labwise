@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: { default: t("title"), template: "%s · Labwise" },
     description: t("description"),
     applicationName: "Labwise",
-    manifest: "/manifest.webmanifest",
+
     appleWebApp: { capable: true, title: "Labwise", statusBarStyle: "default" },
     formatDetection: { telephone: false },
     robots: process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true" ? undefined : { index: false, follow: false },

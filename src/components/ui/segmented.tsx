@@ -19,7 +19,7 @@ export function Segmented<T extends string>({
   const id = React.useId();
   const reduce = useReducedMotion();
   return (
-    <div role="radiogroup" aria-label={label} className={cn("inline-flex rounded-[12px] bg-surface-2 p-1", className)}>
+    <div role="radiogroup" aria-label={label} className={cn("no-scrollbar inline-flex max-w-full overflow-x-auto rounded-[12px] bg-surface-2 p-1", className)}>
       {options.map((o) => {
         const active = o.value === value;
         return (
@@ -30,7 +30,7 @@ export function Segmented<T extends string>({
             aria-checked={active}
             onClick={() => onChange(o.value)}
             className={cn(
-              "relative min-h-9 flex-1 whitespace-nowrap rounded-[9px] px-3.5 text-small font-medium transition-colors",
+              "relative min-h-9 flex-1 whitespace-nowrap rounded-[9px] px-2.5 text-small font-medium transition-colors sm:px-3.5",
               active ? "text-ink" : "text-ink-3 hover:text-ink-2",
             )}
           >

@@ -5,6 +5,9 @@ import type { MarkerStatus } from "@/lib/domain/status";
 import { convert, formatValue, markerById, PANEL_ORDER, resolveUnit, unitFor } from "@/lib/markers";
 import { asUser } from "@/server/db/client";
 
+/** pg drivers may return DATE/TIMESTAMPTZ as Date objects or strings; normalise to YYYY-MM-DD. */
+const isoDate = (v: unknown) => (v instanceof Date ? v.toISOString() : String(v)).slice(0, 10);
+
 export interface TrendSeries {
   id: string;
   name: string;
@@ -24,7 +27,7 @@ export async function getTrends(userId: string, personId: string, units: UnitSys
   const rows = await asUser(userId, (sql) =>
     sql.query<{
       canonical_id: string; value: string | null; unit: string | null; ref_low: string | null; ref_high: string | null; status: MarkerStatus;
-      report_date: string | null; created_at: string; document_id: string;
+      report_date: string | Date | null; created_at: string | Date; document_id: string;
     }>(
       `select m.canonical_id, m.value, m.unit, m.ref_low, m.ref_high, m.status, lr.report_date, d.created_at, d.id as document_id
        from public.lab_markers m
@@ -52,7 +55,7 @@ export async function getTrends(userId: string, personId: string, units: UnitSys
     s.bandLow = low;
     s.bandHigh = high;
     s.points.push({
-      date: (r.report_date ?? r.created_at).slice(0, 10),
+      date: isoDate(r.report_date ?? r.created_at),
       value,
       valueLabel: formatValue(value, d),
       status: r.status,
@@ -64,4 +67,14 @@ export async function getTrends(userId: string, personId: string, units: UnitSys
   return [...series.values()].sort(
     (a, b) => b.points.length - a.points.length || PANEL_ORDER.indexOf(a.panel as never) - PANEL_ORDER.indexOf(b.panel as never),
   );
+}
+
+export async function labCounts(userId: string): Promise<Record<string, number>> {
+  const rows = await asUser(userId, (sql) =>
+    sql.query<{ person_id: string; n: number }>(
+      `select lr.person_id, count(*)::int as n from public.lab_results lr join public.documents d on d.id = lr.document_id
+       where d.status = 'ready' and lr.person_id is not null group by 1`,
+    ),
+  );
+  return Object.fromEntries(rows.map((r) => [r.person_id, r.n]));
 }

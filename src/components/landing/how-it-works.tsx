@@ -127,10 +127,9 @@ export function HowItWorks() {
               const Icon = ICONS[i];
               return (
                 <li key={i} className="lg:flex lg:min-h-[70vh] lg:items-center">
-                  <motion.div
-                    animate={{ opacity: active === i ? 1 : 0.4 }}
-                    transition={{ duration: 0.3 }}
-                    className="rounded-[var(--radius-2xl)] border border-line bg-surface p-6 shadow-[var(--shadow-sm)] max-lg:!opacity-100 sm:p-8 lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none"
+                  <div
+                    data-active={active === i}
+                    className="group/step rounded-[var(--radius-2xl)] border border-line bg-surface p-6 shadow-[var(--shadow-sm)] transition-colors duration-300 sm:p-8 lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none"
                   >
                     <div className="flex items-center gap-3">
                       <span className={cn("grid size-12 place-items-center rounded-[16px]", TINTS[i])}>
@@ -138,12 +137,13 @@ export function HowItWorks() {
                       </span>
                       <span className="text-small font-semibold tabular text-ink-3">0{i + 1}</span>
                     </div>
-                    <h3 className="mt-5 text-h1 font-semibold text-ink text-balance">{s.title}</h3>
-                    <p className="mt-3 max-w-md text-lead text-ink-2 text-pretty">{s.body}</p>
+                    {/* Inactive steps recede by colour (still AA), never by opacity. */}
+                    <h3 className="mt-5 text-h1 font-semibold text-ink text-balance transition-colors lg:group-data-[active=false]/step:text-ink-3">{s.title}</h3>
+                    <p className="mt-3 max-w-md text-lead text-ink-2 text-pretty transition-colors lg:group-data-[active=false]/step:text-ink-3">{s.body}</p>
                     <div className="mt-8 flex justify-center lg:hidden">
                       <Phone className="!w-[15rem]">{React.createElement(SCREENS[i])}</Phone>
                     </div>
-                  </motion.div>
+                  </div>
                 </li>
               );
             })}

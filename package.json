@@ -12,10 +12,11 @@
     "test:watch": "vitest",
     "e2e": "playwright test --trace off",
     "screens": "tsx scripts/screens.ts",
-    "eval": "tsx scripts/eval-golden.ts",
+    "eval": "LABWISE_MODE=local tsx --conditions=react-server --tsconfig tsconfig.json scripts/eval-golden.ts",
     "check": "pnpm typecheck && pnpm lint && pnpm test",
     "fixtures": "tsx scripts/fixtures/generate.ts",
-    "content": "python3 scripts/content/markers.py"
+    "content": "python3 scripts/content/markers.py",
+    "review-list": "python3 scripts/content/review_list.py"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.10.0",
@@ -49,6 +50,7 @@
     "zod": "4.6.7"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "1.63.0",
     "@tailwindcss/turbopack": "4.3.3",
     "@types/node": "^20",

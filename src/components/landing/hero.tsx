@@ -100,41 +100,29 @@ export function Hero() {
       <LivingBackdrop />
       <div className="relative mx-auto grid max-w-[var(--container-wide)] items-center gap-14 px-4 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-8">
         <div className="text-center lg:text-left">
-          <motion.p
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, ease }}
-            className="inline-flex items-center gap-2 rounded-full border border-line bg-surface/80 py-1 pl-1.5 pr-3 text-small text-ink-2 shadow-[var(--shadow-xs)] backdrop-blur"
+          <p
+            className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-line bg-surface/80 py-1 pl-1.5 pr-3 text-small text-ink-2 shadow-[var(--shadow-xs)] backdrop-blur"
           >
             <span className="relative flex size-5 items-center justify-center rounded-full bg-primary-soft">
               <span className="absolute inline-flex size-2 rounded-full bg-primary animate-ping-soft" />
               <span className="relative inline-flex size-2 rounded-full bg-primary" />
             </span>
             {t("eyebrow")}
-          </motion.p>
-          <motion.h1
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.05, ease }}
+          </p>
+          <h1
             className="mt-6 font-display text-[3rem] leading-[1] tracking-[-0.02em] text-ink sm:text-[4.25rem] lg:text-[5rem]"
           >
             {t("titleA")}
             <br />
             <RotatingWord words={[t("word1"), t("word2"), t("word3")]} />
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.15, ease }}
+          </h1>
+          <p
             className="mx-auto mt-6 max-w-xl text-lead text-ink-2 text-pretty lg:mx-0"
           >
             {t("subtitle")}
-          </motion.p>
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.25, ease }}
-            className="mt-9 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center lg:justify-start"
+          </p>
+          <div
+            className="animate-fade-up [animation-delay:120ms] mt-9 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center lg:justify-start"
           >
             <Button asChild size="lg" className="group h-14 rounded-[16px] px-7 text-lead shadow-[0_8px_24px_-8px_var(--primary)]">
               <Link href="/sign-in?next=/home">
@@ -147,19 +135,16 @@ export function Hero() {
                 <Sparkles aria-hidden /> {t("ctaSecondary")}
               </Link>
             </Button>
-          </motion.div>
-          <motion.ul
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-8 flex flex-wrap justify-center gap-x-5 gap-y-2 text-small text-ink-3 lg:justify-start"
+          </div>
+          <ul
+            className="animate-fade-up [animation-delay:200ms] mt-8 flex flex-wrap justify-center gap-x-5 gap-y-2 text-small text-ink-3 lg:justify-start"
           >
             {[t("trust1"), t("trust2"), t("trust3")].map((s) => (
               <li key={s} className="inline-flex items-center gap-1.5">
                 <ShieldCheck className="size-4 text-primary" aria-hidden /> {s}
               </li>
             ))}
-          </motion.ul>
+          </ul>
         </div>
 
         <div className="relative mx-auto flex h-[38rem] w-full max-w-[34rem] items-center justify-center sm:h-[42rem]">
@@ -200,7 +185,8 @@ export function Hero() {
                 <Languages className="size-4" aria-hidden />
               </span>
               <p className="text-small font-medium text-ink">
-                English · <span lang="hi">हिन्दी</span> · <span lang="ml">മലയാളം</span>
+                {/* System fonts here, so the landing page doesn't download ~200KB of Indic web fonts up front. */}
+                English · <span lang="hi" style={{ fontFamily: "system-ui, sans-serif" }}>हिन्दी</span> · <span lang="ml" style={{ fontFamily: "system-ui, sans-serif" }}>മലയാളം</span>
               </p>
             </div>
           </FloatChip>

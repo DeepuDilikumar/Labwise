@@ -11,7 +11,7 @@ import { StatusPill } from "@/components/ui/status-pill";
 import { cn } from "@/lib/cn";
 import { requireApp } from "@/server/context";
 import { listPeople } from "@/server/data/people";
-import { getTrends } from "@/server/data/trends";
+import { getTrends, labCounts } from "@/server/data/trends";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("trendsPage");
@@ -23,7 +23,10 @@ export default async function TrendsPage({ searchParams }: { searchParams: Promi
   const { session, prefs, region } = await requireApp("/trends");
   const t = await getTranslations("trendsPage");
   const people = await listPeople(session.userId);
-  const person = people.find((p) => p.id === sp.person) ?? people.find((p) => p.relation === "self") ?? people[0];
+  // Default to whoever has the most lab reports, so the page opens on something useful.
+  const counts = await labCounts(session.userId);
+  const busiest = [...people].sort((a, b) => (counts[b.id] ?? 0) - (counts[a.id] ?? 0))[0];
+  const person = people.find((p) => p.id === sp.person) ?? ((counts[busiest?.id] ?? 0) > 1 ? busiest : people.find((p) => p.relation === "self")) ?? people[0];
   const series = person ? await getTrends(session.userId, person.id, prefs.units) : [];
   const intl = region.intlLocale[prefs.locale];
   const fmt = (d: string) => new Intl.DateTimeFormat(intl, { month: "short", year: "numeric" }).format(new Date(d));

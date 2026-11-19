@@ -69,3 +69,9 @@ outside range or critical, ordered by how many results relate to that specialty.
 `PaymentProvider` (Razorpay now, Stripe stub for the US, an HMAC-signed local provider for zero-key testing). Orders are
 recorded server-side; fulfilment is a single `UPDATE … WHERE status='created' RETURNING` so the client callback and the
 webhook can race or repeat safely. Users have no UPDATE grant on payments/credits at all.
+
+## 014 — Performance budget vs. "alive" landing
+Desktop Lighthouse is 100 across the board; the mobile sample/results page is 93. The motion-rich landing is 85 on
+simulated mobile 4G (LCP 3.5s, TBT ~270ms, CLS 0). We moved above-the-fold entrances to CSS and stopped downloading
+Indic web fonts on the landing page (LCP 5.0s → 3.5s). Reaching 95 would mean deferring hydration of below-the-fold
+sections or trimming motion; left as a product decision (see launch checklist).

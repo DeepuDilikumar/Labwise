@@ -16,7 +16,9 @@ Data: Postgres with RLS — Supabase in cloud, **PGlite** locally running the *s
 - `pnpm check` — typecheck + lint + unit/integration/guardrail tests (run before every commit)
 - `pnpm e2e` — Playwright (`--trace off` already set)
 - `pnpm screens /route … [--theme=dark] [--locale=hi] [--widths=390,768,1280]` → `screens/` (gitignored)
-- `pnpm eval` — golden-set extraction/guardrail eval
+- `pnpm eval` — golden-set extraction/guardrail eval (Anthropic if `ANTHROPIC_API_KEY`, else fixtures)
+- `pnpm fixtures` — regenerate synthetic golden set; `pnpm content` — regenerate marker JSON; `pnpm review-list`
+- E2E builds and starts prod on :3100 (`reuseExistingServer: false`). If a run looks stale, `fuser -k 3100/tcp`.
 
 ## Architecture
 - `LABWISE_MODE=local|cloud` picks adapters (`src/server/env.ts`). Local = PGlite, encrypted disk storage, dev OTP
@@ -56,6 +58,15 @@ Data: Postgres with RLS — Supabase in cloud, **PGlite** locally running the *s
 - Privacy: consent before first upload; redact PII before any LLM call; RLS on every table; no analytics with health
   values; no third-party trackers; never log report contents, prompts or outputs; audit log stores actions only.
 - **Never use real patient data** — fixtures, tests, screenshots and demos are synthetic only.
+
+## Gotchas (learned the hard way)
+- PGlite has ONE connection: never call `asUser`/`asService`/`audit()` inside another transaction — write the row
+  with the `sql` you already have, or call after the transaction returns (nested calls deadlock).
+- DB `date`/`timestamptz` may arrive as `Date` objects (PGlite) or strings (postgres.js). Normalise before string ops.
+- `tailwind-merge` must know custom type sizes (`src/lib/cn.ts`), or `text-body` silently strips colour classes.
+- Don't call helpers from `"use client"` modules in server code; shared helpers go in `src/lib/`.
+- Off-screen share card lives in the DOM: scope test selectors (headings/roles) to avoid matching it.
+- Above-the-fold landing text uses CSS entrance animations (not motion JS) so LCP isn't tied to hydration.
 
 ## Conventions
 - Server-only modules import `"server-only"`. Server actions in `src/app/actions/*`.
